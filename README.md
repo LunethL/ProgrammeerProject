@@ -2,7 +2,8 @@
 ProgrammeerProject voor mprog
 
 ## Project Proposal: The World of TV Series
-## By Sanne Meijering
+### By Sanne Meijering
+
 
 ## Goal
 The goal of this visualization is to create an overview of the rating and the number of  TV series written. This is done using a horizontal bar chart. An additional bar chart shows for each series when the fanfiction was written, while a pie chart shows which percentage of fanfiction is hosted on the website fanfiction.net and which percentage is hosted on the website archiveofourown.org
