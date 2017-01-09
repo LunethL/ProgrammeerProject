@@ -35,7 +35,7 @@ Influence: How big the active fanbase is (with active fanbase being the people t
 •	Real-time scraper: Scrapes the data on update
 
 ## Sketch of the web page
-![](doc/sketch.jpg)
+![](doc/Sketch.jpg)
 
 ## Data sources
 Rating: IMBD, RottenTomatoes
