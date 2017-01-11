@@ -6,13 +6,12 @@ This script scrapes FF.net and outputs a JSON file with tv series.
 '''
 import scrapy
 
-TARGET_URL1 = "https://www.fanfiction.net/tv/"
-TARGET_URL2 = "https://www.fanfiction.net/anime/"
+TARGET_URL = "https://www.fanfiction.net/tv/"
 
 # Scraper that moves to the next page
 class FFSpider(scrapy.Spider):
     name = "fanfiction"
-    start_urls = [TARGET_URL1, TARGET_URL2]
+    start_urls = [TARGET_URL]
 
     # Parse page and continue to next page
     def parse(self, response):
@@ -23,7 +22,7 @@ class FFSpider(scrapy.Spider):
                 fanfiction = float(fanfiction[:-1]) * 1000
             fanfiction = int(fanfiction)
 
-            if fanfiction >= 10:
+            if fanfiction > 50:
                 yield {
                     'name': series.css('a::attr(title)').extract_first(),
                     'fanfiction': fanfiction,
