@@ -2,7 +2,7 @@
 ### Sanne Meijering
 
 ## Diagram
-![](doc/TechDesign.jpg)
+![](doc/TechDesign.JPG)
 
 ## Obtaining Data
 Data of TV series with over 50 fanfictions is scraped from Fanfiction.net (FF.net) and Archiveofourown.org (AO3). 
