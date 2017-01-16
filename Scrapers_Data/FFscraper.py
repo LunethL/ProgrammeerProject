@@ -1,8 +1,8 @@
-
 # Name: Sanne Meijering
 # Student number: 10783709
 '''
-This script scrapes FF.net and outputs a JSON file with tv series.
+This script scrapes FF.net and outputs a JSON file with tv series,
+amount of fanfiction and a link to the series page.
 '''
 import scrapy
 
@@ -22,9 +22,8 @@ class FFSpider(scrapy.Spider):
                 fanfiction = float(fanfiction[:-1]) * 1000
             fanfiction = int(fanfiction)
 
-            if fanfiction > 50:
-                yield {
-                    'name': series.css('a::attr(title)').extract_first(),
-                    'fanfiction': fanfiction,
-                    'href': series.css('a::attr(href)').extract_first()[1:-1]
-                }
+            yield {
+                'name': series.css('a::attr(title)').extract_first(),
+                'fanfiction': fanfiction,
+                'href': series.css('a::attr(href)').extract_first()[1:-1]
+            }

@@ -11,7 +11,7 @@
         "ao3": "12 Monkeys (TV)",
         "ffnet": "12 Monkeys"
     },
-    "15Love": {
+    "15/Love": {
         "ao3": "FAIL",
         "ffnet": "15Love"
     },
@@ -58,10 +58,6 @@
     "Adam-12": {
         "ao3": "Adam-12",
         "ffnet": "Adam-12"
-    },
-    "Addams Family": {
-        "ao3": "Addams Family (TV 1964)",
-        "ffnet": "FAIL"
     },
     "Adventure Inc.": {
         "ao3": "Adventure Inc.",
@@ -147,10 +143,6 @@
         "ao3": "American Horror Story",
         "ffnet": "American Horror Story"
     },
-    "And Then There Were None": {
-        "ao3": "And Then There Were None (TV 2015)",
-        "ffnet": "FAIL"
-    },
     "Andromeda": {
         "ao3": "Andromeda (TV)",
         "ffnet": "Andromeda"
@@ -191,10 +183,6 @@
         "ao3": "Ashes to Ashes (UK TV)",
         "ffnet": "Ashes to Ashes"
     },
-    "Askewniverse": {
-        "ao3": "Askewniverse",
-        "ffnet": "FAIL"
-    },
     "Atlantis": {
         "ao3": "Atlantis (UK TV)",
         "ffnet": "Atlantis"
@@ -210,10 +198,6 @@
     "Baby Daddy": {
         "ao3": "Baby Daddy (TV)",
         "ffnet": "Baby Daddy"
-    },
-    "Baby-Sitters Club": {
-        "ao3": "Baby-Sitters Club - All Media Types",
-        "ffnet": "FAIL"
     },
     "Babylon 5": {
         "ao3": "Babylon 5",
@@ -379,10 +363,6 @@
         "ao3": "Bones (TV)",
         "ffnet": "Bones"
     },
-    "Borgias": {
-        "ao3": "Borgias - Ambiguous Fandom",
-        "ffnet": "Borgias"
-    },
     "Boston Legal": {
         "ao3": "Boston Legal",
         "ffnet": "Boston Legal"
@@ -479,10 +459,6 @@
         "ao3": "Call the Midwife",
         "ffnet": "Call the Midwife"
     },
-    "6 Degrees (Canadian)": {
-        "ao3": "Canadian 6 Degrees",
-        "ffnet": "FAIL"
-    },
     "Caprica": {
         "ao3": "Caprica (TV)",
         "ffnet": "Caprica"
@@ -514,10 +490,6 @@
     "Casualty": {
         "ao3": "Casualty (TV)",
         "ffnet": "Casualty"
-    },
-    "Catfish: The TV Show": {
-        "ao3": "Catfish: The TV Show",
-        "ffnet": "FAIL"
     },
     "Chaos": {
         "ao3": "CHAOS (TV 2011)",
@@ -651,10 +623,6 @@
         "ao3": "Dallas - All TV Series",
         "ffnet": "Dallas"
     },
-    "Dalton Academy": {
-        "ao3": "Dalton Academy Series",
-        "ffnet": "FAIL"
-    },
     "Damages": {
         "ao3": "Damages",
         "ffnet": "Damages"
@@ -743,10 +711,6 @@
         "ao3": "FAIL",
         "ffnet": "Dil Dosti Dance"
     },
-    "Dirk Gently": {
-        "ao3": "Dirk Gently - All Media Types",
-        "ffnet": "FAIL"
-    },
     "Doc Martin": {
         "ao3": "Doc Martin (TV)",
         "ffnet": "Doc Martin"
@@ -795,7 +759,7 @@
         "ao3": "due South",
         "ffnet": "Due South"
     },
-    "Dumping Ground": {
+    "The Dumping Ground": {
         "ao3": "FAIL",
         "ffnet": "Dumping Ground, 2013"
     },
@@ -907,10 +871,6 @@
         "ao3": "Falling Skies",
         "ffnet": "Falling Skies"
     },
-    "Fangface": {
-        "ao3": "FAIL",
-        "ffnet": "Fangface"
-    },
     "Fantasy Island": {
         "ao3": "Fantasy Island",
         "ffnet": "Fantasy Island"
@@ -962,10 +922,6 @@
     "Fraggle Rock": {
         "ao3": "Fraggle Rock",
         "ffnet": "Fraggle Rock"
-    },
-    "Frank Herbert's Children of Dune": {
-        "ao3": "Frank Herbert's Children of Dune (2003)",
-        "ffnet": "FAIL"
     },
     "Franklin & Bash": {
         "ao3": "Franklin & Bash",
@@ -1038,10 +994,6 @@
     "Get Smart": {
         "ao3": "Get Smart - All Media Types",
         "ffnet": "Get Smart"
-    },
-    "Ghost Adventures": {
-        "ao3": "Ghost Adventures (TV)",
-        "ffnet": "FAIL"
     },
     "Ghost Whisperer": {
         "ao3": "Ghost Whisperer",
@@ -1587,10 +1539,6 @@
         "ao3": "Little House on the Prairie (TV)",
         "ffnet": "Little House on the Prairie"
     },
-    "Little Men": {
-        "ao3": "FAIL",
-        "ffnet": "Little Men"
-    },
     "Liv and Maddie": {
         "ao3": "Liv and Maddie",
         "ffnet": "Liv and Maddie"
@@ -1634,10 +1582,6 @@
     "The Lost World": {
         "ao3": "The Lost World (TV)",
         "ffnet": "Lost World"
-    },
-    "Lucha Underground": {
-        "ao3": "Lucha Underground",
-        "ffnet": "FAIL"
     },
     "Lucifer": {
         "ao3": "Lucifer (TV)",
@@ -1906,10 +1850,6 @@
     },
     "Neues aus Büttenwarder": {
         "ao3": "Neues aus Büttenwarder",
-        "ffnet": "FAIL"
-    },
-    "New Avengers": {
-        "ao3": "New Avengers (TV)",
         "ffnet": "FAIL"
     },
     "New Girl": {
@@ -2213,7 +2153,7 @@
         "ffnet": "Reba"
     },
     "Red Band Society": {
-        "ao3": "FAIL",
+        "ao3": "Red Band Society",
         "ffnet": "Red Band Society"
     },
     "Red Dwarf": {
@@ -2225,11 +2165,11 @@
         "ffnet": "Reign"
     },
     "Relic Hunter": {
-        "ao3": "FAIL",
+        "ao3": "Relic Hunter",
         "ffnet": "Relic Hunter"
     },
     "Remember WENN": {
-        "ao3": "FAIL",
+        "ao3": "Remember WENN",
         "ffnet": "Remember WENN"
     },
     "Remington Steele": {
@@ -2237,11 +2177,11 @@
         "ffnet": "Remington Steele"
     },
     "Rescue: Special Ops": {
-        "ao3": "FAIL",
+        "ao3": "Rescue: Special Ops",
         "ffnet": "Rescue: Special Ops"
     },
-    "Return to Treasure Island (TV 1996)": {
-        "ao3": "Return to Treasure Island (TV 1996)",
+    "Return to Treasure Island": {
+        "ao3": "Return to Treasure Island",
         "ffnet": "FAIL"
     },
     "Revenge": {
@@ -2253,7 +2193,7 @@
         "ffnet": "Revolution"
     },
     "Ringer": {
-        "ao3": "FAIL",
+        "ao3": "Ringer (TV)",
         "ffnet": "Ringer"
     },
     "Ripper Street": {
@@ -2269,19 +2209,11 @@
         "ffnet": "Rizzoli & Isles"
     },
     "Road to Avonlea": {
-        "ao3": "FAIL",
+        "ao3": "Road to Avonlea",
         "ffnet": "Road to Avonlea"
     },
-    "Robin Hood (BBC 2006)": {
+    "Robin Hood": {
         "ao3": "Robin Hood (BBC 2006)",
-        "ffnet": "FAIL"
-    },
-    "Robin Hood - All Media Types": {
-        "ao3": "Robin Hood - All Media Types",
-        "ffnet": "FAIL"
-    },
-    "Robin Hood BBC": {
-        "ao3": "FAIL",
         "ffnet": "Robin Hood BBC"
     },
     "Robin of Sherwood": {
@@ -2289,48 +2221,40 @@
         "ffnet": "Robin of Sherwood"
     },
     "Rome": {
-        "ao3": "FAIL",
-        "ffnet": "Rome"
-    },
-    "Rome (TV 2005)": {
         "ao3": "Rome (TV 2005)",
-        "ffnet": "FAIL"
+        "ffnet": "Rome"
     },
     "Rookie Blue": {
         "ao3": "Rookie Blue",
         "ffnet": "Rookie Blue"
     },
     "Rookies": {
-        "ao3": "FAIL",
+        "ao3": "Rookies - Morita Masanori & Related Fandoms",
         "ffnet": "Rookies"
     },
     "Roswell": {
         "ao3": "Roswell (TV)",
         "ffnet": "Roswell"
     },
-    "Royal": {
-        "ao3": "FAIL",
+    "The Royal": {
+        "ao3": "The Royal (TV 2003)",
         "ffnet": "Royal"
     },
     "Royal Pains": {
         "ao3": "Royal Pains",
         "ffnet": "Royal Pains"
     },
-    "Royals": {
-        "ao3": "FAIL",
-        "ffnet": "Royals"
-    },
-    "Rush, 2008": {
-        "ao3": "FAIL",
+    "Rush": {
+        "ao3": "Rush (TV)",
         "ffnet": "Rush, 2008"
     },
-    "S.W.A.T. - All Media Types": {
+    "S.W.A.T.": {
         "ao3": "S.W.A.T. - All Media Types",
-        "ffnet": "FAIL"
+        "ffnet": "S.W.A.T."
     },
     "SKAM": {
         "ao3": "SKAM (TV)",
-        "ffnet": "FAIL"
+        "ffnet": "Skam"
     },
     "Sabrina the Teenage Witch": {
         "ao3": "Sabrina the Teenage Witch (TV)",
@@ -2340,40 +2264,24 @@
         "ao3": "Sam & Cat (TV)",
         "ffnet": "Sam & Cat"
     },
-    "Samurai Sentai Shinkenger": {
-        "ao3": "Samurai Sentai Shinkenger",
-        "ffnet": "FAIL"
-    },
     "Sanctuary": {
         "ao3": "Sanctuary (TV)",
         "ffnet": "Sanctuary"
     },
-    "Sapphire & Steel": {
-        "ao3": "FAIL",
-        "ffnet": "Sapphire & Steel"
-    },
     "Sapphire and Steel": {
         "ao3": "Sapphire and Steel",
-        "ffnet": "FAIL"
+        "ffnet": "Sapphire & Steel"
     },
     "Sarah Jane Adventures": {
-        "ao3": "Sarah Jane Adventures",
+        "ao3": "Sarah Jane Smith's Adventures",
         "ffnet": "Sarah Jane Adventures"
     },
-    "Sarah Jane Smith's Adventures": {
-        "ao3": "Sarah Jane Smith's Adventures",
-        "ffnet": "FAIL"
-    },
-    "Saturday Night Live": {
-        "ao3": "Saturday Night Live",
-        "ffnet": "FAIL"
-    },
     "Saved By The Bell": {
-        "ao3": "FAIL",
+        "ao3": "Saved By The Bell (TV)",
         "ffnet": "Saved By The Bell"
     },
     "Saving Hope": {
-        "ao3": "FAIL",
+        "ao3": "Saving Hope",
         "ffnet": "Saving Hope"
     },
     "Scandal": {
@@ -2384,17 +2292,9 @@
         "ao3": "Scarecrow and Mrs. King",
         "ffnet": "Scarecrow and Mrs. King"
     },
-    "Scooby Doo - All Media Types": {
-        "ao3": "Scooby Doo - All Media Types",
-        "ffnet": "FAIL"
-    },
     "Scorpion": {
-        "ao3": "FAIL",
-        "ffnet": "Scorpion"
-    },
-    "Scorpion (TV 2014)": {
         "ao3": "Scorpion (TV 2014)",
-        "ffnet": "FAIL"
+        "ffnet": "Scorpion"
     },
     "Scott & Bailey": {
         "ao3": "Scott & Bailey",
@@ -2404,40 +2304,36 @@
         "ao3": "Scream (TV)",
         "ffnet": "Scream"
     },
-    "Scream Queens (TV 2015)": {
+    "Scream Queens": {
         "ao3": "Scream Queens (TV 2015)",
-        "ffnet": "FAIL"
+        "ffnet": "Scream Queens, 2015"
     },
     "Scrubs": {
         "ao3": "Scrubs (TV)",
         "ffnet": "Scrubs"
     },
     "Sea Patrol": {
-        "ao3": "FAIL",
+        "ao3": "Sea Patrol",
         "ffnet": "Sea Patrol"
     },
     "SeaQuest": {
-        "ao3": "FAIL",
+        "ao3": "seaQuest",
         "ffnet": "SeaQuest"
     },
-    "Secret Adventures of Jules Verne": {
-        "ao3": "FAIL",
+    "The Secret Adventures of Jules Verne": {
+        "ao3": "The Secret Adventures of Jules Verne",
         "ffnet": "Secret Adventures of Jules Verne"
-    },
-    "Secret Circle": {
-        "ao3": "FAIL",
-        "ffnet": "Secret Circle"
     },
     "Secret Diary of a Call Girl": {
         "ao3": "Secret Diary of a Call Girl (TV)",
-        "ffnet": "FAIL"
+        "ffnet": "Secret Diary of a Call Girl"
     },
     "Secret Life of the American Teenager": {
-        "ao3": "FAIL",
+        "ao3": "Secret Life of the American Teenager (TV)",
         "ffnet": "Secret Life of the American Teenager"
     },
     "Seinfeld": {
-        "ao3": "FAIL",
+        "ao3": "Seinfeld",
         "ffnet": "Seinfeld"
     },
     "Selfie": {
@@ -2448,28 +2344,16 @@
         "ao3": "Sense8 (TV)",
         "ffnet": "Sense8"
     },
-    "Sentinel": {
-        "ao3": "FAIL",
-        "ffnet": "Sentinel"
-    },
-    "Sesame Street": {
-        "ao3": "Sesame Street (TV)",
-        "ffnet": "FAIL"
-    },
-    "Sesame Street - All Media Types": {
-        "ao3": "Sesame Street - All Media Types",
-        "ffnet": "FAIL"
-    },
     "Seven Brides for Seven Brothers": {
-        "ao3": "FAIL",
+        "ao3": "Seven Brides for Seven Brothers (TV)",
         "ffnet": "Seven Brides for Seven Brothers"
     },
     "Seven Days": {
-        "ao3": "FAIL",
+        "ao3": "Seven Days (TV)",
         "ffnet": "Seven Days"
     },
     "Sex and the City": {
-        "ao3": "FAIL",
+        "ao3": "Sex and the City (TV)",
         "ffnet": "Sex and the City"
     },
     "Shadowhunters": {
@@ -2477,67 +2361,43 @@
         "ffnet": "Shadowhunters"
     },
     "Shake It Up!": {
-        "ao3": "FAIL",
+        "ao3": "Shake It Up!",
         "ffnet": "Shake It Up!"
     },
     "Shameless": {
-        "ao3": "FAIL",
+        "ao3": "Shameless (UK)",
         "ffnet": "Shameless"
     },
     "Shameless (US)": {
         "ao3": "Shameless (US)",
-        "ffnet": "FAIL"
-    },
-    "Shameless, 2011": {
-        "ao3": "FAIL",
         "ffnet": "Shameless, 2011"
-    },
-    "Shannara Chronicles": {
-        "ao3": "FAIL",
-        "ffnet": "Shannara Chronicles"
-    },
-    "Sharpe": {
-        "ao3": "Sharpe (TV)",
-        "ffnet": "FAIL"
-    },
-    "Sharpe - All Media Types": {
-        "ao3": "Sharpe - All Media Types",
-        "ffnet": "FAIL"
     },
     "Sherlock": {
         "ao3": "Sherlock (TV)",
         "ffnet": "Sherlock"
     },
-    "Sherlock Holmes & Related Fandoms": {
-        "ao3": "Sherlock Holmes & Related Fandoms",
-        "ffnet": "FAIL"
-    },
-    "Sherlock Holmes (1984 TV)": {
-        "ao3": "Sherlock Holmes (1984 TV)",
-        "ffnet": "FAIL"
-    },
-    "Shield": {
-        "ao3": "FAIL",
+    "The Shield": {
+        "ao3": "The Shield (TV)",
         "ffnet": "Shield"
     },
     "Signed, Sealed, Delivered": {
-        "ao3": "FAIL",
+        "ao3": "Signed Sealed Delivered (TV)",
         "ffnet": "Signed, Sealed, Delivered"
     },
     "Silent Witness": {
-        "ao3": "FAIL",
+        "ao3": "Silent Witness (TV)",
         "ffnet": "Silent Witness"
     },
     "Silicon Valley": {
         "ao3": "Silicon Valley (TV)",
-        "ffnet": "FAIL"
+        "ffnet": "Silicon Valley"
     },
     "Silk": {
-        "ao3": "FAIL",
+        "ao3": "Silk (TV)",
         "ffnet": "Silk"
     },
     "Silk Stalkings": {
-        "ao3": "FAIL",
+        "ao3": "Silk Stalkings",
         "ffnet": "Silk Stalkings"
     },
     "Simon and Simon": {
@@ -2545,28 +2405,24 @@
         "ffnet": "Simon and Simon"
     },
     "Six Feet Under": {
-        "ao3": "FAIL",
+        "ao3": "Six Feet Under",
         "ffnet": "Six Feet Under"
     },
     "Skins": {
-        "ao3": "FAIL",
-        "ffnet": "Skins"
-    },
-    "Skins (UK)": {
         "ao3": "Skins (UK)",
-        "ffnet": "FAIL"
+        "ffnet": "Skins"
     },
     "Sleepy Hollow": {
         "ao3": "Sleepy Hollow (TV)",
         "ffnet": "Sleepy Hollow"
     },
     "Sliders": {
-        "ao3": "FAIL",
+        "ao3": "Sliders",
         "ffnet": "Sliders"
     },
     "Slings & Arrows": {
         "ao3": "Slings & Arrows",
-        "ffnet": "FAIL"
+        "ffnet": "Slings and Arrows"
     },
     "Smallville": {
         "ao3": "Smallville",
@@ -2577,31 +2433,31 @@
         "ffnet": "Smash"
     },
     "So Weird": {
-        "ao3": "FAIL",
+        "ao3": "So Weird (TV)",
         "ffnet": "So Weird"
     },
     "Soldier of Fortune Inc.": {
         "ao3": "Soldier of Fortune Inc.",
-        "ffnet": "FAIL"
+        "ffnet": "Soldier of Fortune"
     },
     "Sonny with a Chance": {
-        "ao3": "FAIL",
+        "ao3": "Sonny with a Chance",
         "ffnet": "Sonny with a Chance"
     },
-    "Sons Of Thunder": {
-        "ao3": "FAIL",
+    "Sons of Thunder": {
+        "ao3": "Sons of Thunder",
         "ffnet": "Sons Of Thunder"
     },
     "Sons of Anarchy": {
         "ao3": "Sons of Anarchy",
         "ffnet": "Sons of Anarchy"
     },
-    "Sopranos": {
-        "ao3": "FAIL",
+    "The Sopranos": {
+        "ao3": "The Sopranos",
         "ffnet": "Sopranos"
     },
     "South of Nowhere": {
-        "ao3": "FAIL",
+        "ao3": "South of Nowhere",
         "ffnet": "South of Nowhere"
     },
     "Southland": {
@@ -2609,20 +2465,16 @@
         "ffnet": "Southland"
     },
     "Space 1999": {
-        "ao3": "FAIL",
+        "ao3": "Space: 1999",
         "ffnet": "Space 1999"
     },
     "Space Cases": {
-        "ao3": "FAIL",
+        "ao3": "Space Cases (TV)",
         "ffnet": "Space Cases"
     },
     "Space: Above and Beyond": {
         "ao3": "Space: Above and Beyond",
         "ffnet": "Space: Above and Beyond"
-    },
-    "Spartacus Series": {
-        "ao3": "Spartacus Series (TV)",
-        "ffnet": "FAIL"
     },
     "Spartacus: Blood and Sand": {
         "ao3": "Spartacus: Blood and Sand",
@@ -2640,124 +2492,56 @@
         "ao3": "Spartacus: War of the Damned",
         "ffnet": "FAIL"
     },
-    "Splatalot": {
-        "ao3": "FAIL",
-        "ffnet": "Splatalot"
-    },
     "Sports Night": {
         "ao3": "Sports Night",
         "ffnet": "Sports Night"
     },
     "Standoff": {
-        "ao3": "FAIL",
+        "ao3": "Standoff",
         "ffnet": "Standoff"
-    },
-    "Star Trek": {
-        "ao3": "Star Trek",
-        "ffnet": "FAIL"
-    },
-    "Star Trek: Alternate Original Series (Movies)": {
-        "ao3": "Star Trek: Alternate Original Series (Movies)",
-        "ffnet": "FAIL"
     },
     "Star Trek: Deep Space Nine": {
         "ao3": "Star Trek: Deep Space Nine",
-        "ffnet": "FAIL"
+        "ffnet": "StarTrek: Deep Space Nine"
     },
     "Star Trek: Enterprise": {
         "ao3": "Star Trek: Enterprise",
-        "ffnet": "FAIL"
-    },
-    "Star Trek: Mirror Universe": {
-        "ao3": "Star Trek: Mirror Universe",
-        "ffnet": "FAIL"
+        "ffnet": "StarTrek: Enterprise"
     },
     "Star Trek: The Next Generation": {
         "ao3": "Star Trek: The Next Generation",
-        "ffnet": "FAIL"
+        "ffnet": "StarTrek: The Next Generation"
     },
     "Star Trek: The Original Series": {
         "ao3": "Star Trek: The Original Series",
-        "ffnet": "FAIL"
+        "ffnet": "StarTrek: The Original Series"
     },
     "Star Trek: Voyager": {
         "ao3": "Star Trek: Voyager",
-        "ffnet": "FAIL"
-    },
-    "Star-Crossed": {
-        "ao3": "FAIL",
-        "ffnet": "Star-Crossed"
-    },
-    "Star-Crossed (TV 2014)": {
-        "ao3": "Star-Crossed (TV 2014)",
-        "ffnet": "FAIL"
-    },
-    "StarTrek: Deep Space Nine": {
-        "ao3": "FAIL",
-        "ffnet": "StarTrek: Deep Space Nine"
-    },
-    "StarTrek: Enterprise": {
-        "ao3": "FAIL",
-        "ffnet": "StarTrek: Enterprise"
-    },
-    "StarTrek: Other": {
-        "ao3": "FAIL",
-        "ffnet": "StarTrek: Other"
-    },
-    "StarTrek: The Next Generation": {
-        "ao3": "FAIL",
-        "ffnet": "StarTrek: The Next Generation"
-    },
-    "StarTrek: The Original Series": {
-        "ao3": "FAIL",
-        "ffnet": "StarTrek: The Original Series"
-    },
-    "StarTrek: Voyager": {
-        "ao3": "FAIL",
         "ffnet": "StarTrek: Voyager"
     },
-    "Stargate - All Series": {
-        "ao3": "Stargate - All Series",
-        "ffnet": "FAIL"
+    "Star-Crossed": {
+        "ao3": "Star-Crossed (TV 2014)",
+        "ffnet": "Star-Crossed"
     },
     "Stargate Atlantis": {
         "ao3": "Stargate Atlantis",
-        "ffnet": "FAIL"
+        "ffnet": "Stargate: Atlantis"
     },
     "Stargate SG-1": {
         "ao3": "Stargate SG-1",
-        "ffnet": "FAIL"
+        "ffnet": "Stargate: SG-1"
     },
     "Stargate Universe": {
         "ao3": "Stargate Universe",
-        "ffnet": "FAIL"
-    },
-    "Stargate: Atlantis": {
-        "ao3": "FAIL",
-        "ffnet": "Stargate: Atlantis"
-    },
-    "Stargate: SG-1": {
-        "ao3": "FAIL",
-        "ffnet": "Stargate: SG-1"
-    },
-    "Stargate: Universe": {
-        "ao3": "FAIL",
         "ffnet": "Stargate: Universe"
     },
     "Starman": {
         "ao3": "Starman (TV)",
-        "ffnet": "FAIL"
-    },
-    "Starman - Ambiguous Fandom": {
-        "ao3": "Starman - Ambiguous Fandom",
-        "ffnet": "FAIL"
+        "ffnet": "Starman"
     },
     "Starsky & Hutch": {
         "ao3": "Starsky & Hutch",
-        "ffnet": "FAIL"
-    },
-    "Starsky and Hutch": {
-        "ao3": "FAIL",
         "ffnet": "Starsky and Hutch"
     },
     "Stitchers": {
@@ -2765,47 +2549,39 @@
         "ffnet": "Stitchers"
     },
     "Story of Tracy Beaker": {
-        "ao3": "FAIL",
+        "ao3": "Tracy Beaker - All Media Types",
         "ffnet": "Story of Tracy Beaker"
     },
     "Strange Days at Blake Holsey High": {
-        "ao3": "FAIL",
+        "ao3": "Black Hole High | Strange Days at Blake Holsey High",
         "ffnet": "Strange Days at Blake Holsey High"
     },
-    "Stranger Things (TV 2016)": {
+    "Stranger Things": {
         "ao3": "Stranger Things (TV 2016)",
-        "ffnet": "FAIL"
-    },
-    "Stranger Things, 2016": {
-        "ao3": "FAIL",
         "ffnet": "Stranger Things, 2016"
     },
-    "Streets Of San Francisco": {
-        "ao3": "FAIL",
+    "The Streets of San Francisco": {
+        "ao3": "The Streets of San Francisco",
         "ffnet": "Streets Of San Francisco"
     },
     "Strike Back": {
         "ao3": "Strike Back",
-        "ffnet": "FAIL"
+        "ffnet": "Strike Back"
     },
     "Strong Medicine": {
         "ao3": "FAIL",
         "ffnet": "Strong Medicine"
     },
-    "Studio 60": {
-        "ao3": "FAIL",
-        "ffnet": "Studio 60"
-    },
     "Studio 60 on the Sunset Strip": {
         "ao3": "Studio 60 on the Sunset Strip",
-        "ffnet": "FAIL"
+        "ffnet": "Studio 60"
     },
-    "Sue Thomas: FB Eye": {
-        "ao3": "FAIL",
+    "Sue Thomas: F.B.Eye": {
+        "ao3": "Sue Thomas: F.B.Eye",
         "ffnet": "Sue Thomas: FB Eye"
     },
-    "Suite Life series": {
-        "ao3": "FAIL",
+    "Suite Life": {
+        "ao3": "Suite Life",
         "ffnet": "Suite Life series"
     },
     "Suits": {
@@ -2813,15 +2589,15 @@
         "ffnet": "Suits"
     },
     "Summerland": {
-        "ao3": "FAIL",
+        "ao3": "Summerland (TV)",
         "ffnet": "Summerland"
     },
     "Sungkyunkwan Scandal": {
         "ao3": "Sungkyunkwan Scandal",
-        "ffnet": "FAIL"
+        "ffnet": "Sungkyunkwan Scandal/성균관 스캔들"
     },
     "Sunset Beach": {
-        "ao3": "FAIL",
+        "ao3": "Sunset Beach (TV)",
         "ffnet": "Sunset Beach"
     },
     "Supah Ninjas": {
@@ -2829,20 +2605,12 @@
         "ffnet": "Supah Ninjas"
     },
     "Super Sentai": {
-        "ao3": "FAIL",
+        "ao3": "Super Sentai Series",
         "ffnet": "Super Sentai"
     },
-    "Super Sentai Series": {
-        "ao3": "Super Sentai Series",
-        "ffnet": "FAIL"
-    },
     "Supergirl": {
-        "ao3": "FAIL",
-        "ffnet": "Supergirl"
-    },
-    "Supergirl (TV 2015)": {
         "ao3": "Supergirl (TV 2015)",
-        "ffnet": "FAIL"
+        "ffnet": "Supergirl"
     },
     "Supernatural": {
         "ao3": "Supernatural",
@@ -2852,57 +2620,29 @@
         "ao3": "Switched at Birth (TV)",
         "ffnet": "Switched at Birth"
     },
-    "Sān guó yǎn yì | Romance of the Three Kingdoms - All Media Types": {
-        "ao3": "Sān guó yǎn yì | Romance of the Three Kingdoms - All Media Types",
-        "ffnet": "FAIL"
-    },
-    "TV Commercials": {
-        "ao3": "FAIL",
-        "ffnet": "TV Commercials"
-    },
     "Taggart": {
         "ao3": "Taggart (TV)",
         "ffnet": "Taggart"
     },
     "Tarzan": {
-        "ao3": "FAIL",
-        "ffnet": "Tarzan"
-    },
-    "Tarzan - All Media Types": {
         "ao3": "Tarzan - All Media Types",
-        "ffnet": "FAIL"
+        "ffnet": "Tarzan"
     },
     "Tatort": {
         "ao3": "Tatort",
-        "ffnet": "FAIL"
+        "ffnet": "Tatort"
     },
     "Teen Wolf": {
         "ao3": "Teen Wolf (TV)",
         "ffnet": "Teen Wolf"
     },
-    "Teenage Mutant Ninja Turtles - All Media Types": {
-        "ao3": "Teenage Mutant Ninja Turtles - All Media Types",
-        "ffnet": "FAIL"
-    },
     "Teletubbies": {
-        "ao3": "FAIL",
+        "ao3": "Teletubbies (TV)",
         "ffnet": "Teletubbies"
-    },
-    "Tennis no Oujisama | Prince of Tennis": {
-        "ao3": "Tennis no Oujisama | Prince of Tennis",
-        "ffnet": "FAIL"
-    },
-    "Terminator - All Media Types": {
-        "ao3": "Terminator - All Media Types",
-        "ffnet": "FAIL"
-    },
-    "Terminator: Sarah Connor Chronicles": {
-        "ao3": "FAIL",
-        "ffnet": "Terminator: Sarah Connor Chronicles"
     },
     "Terminator: The Sarah Connor Chronicles": {
         "ao3": "Terminator: The Sarah Connor Chronicles",
-        "ffnet": "FAIL"
+        "ffnet": "Terminator: Sarah Connor Chronicles"
     },
     "Terra Nova": {
         "ao3": "Terra Nova (TV)",
@@ -2912,8 +2652,8 @@
         "ao3": "That '70s Show",
         "ffnet": "That \\'70s Show"
     },
-    "That\\'s So Raven": {
-        "ao3": "FAIL",
+    "That's So Raven": {
+        "ao3": "That's So Raven",
         "ffnet": "That\\'s So Raven"
     },
     "The 100": {
@@ -2932,13 +2672,13 @@
         "ao3": "The Almighty Johnsons",
         "ffnet": "Almighty Johnsons"
     },
-    "The Americans (TV 2013)": {
+    "The Americans": {
         "ao3": "The Americans (TV 2013)",
-        "ffnet": "FAIL"
+        "ffnet": "Americans"
     },
     "The Aquabats! Super Show!": {
         "ao3": "The Aquabats! Super Show!",
-        "ffnet": "FAIL"
+        "ffnet": "Aquabats! Super Show!"
     },
     "The Avengers": {
         "ao3": "The Avengers (TV)",
@@ -2962,11 +2702,11 @@
     },
     "The Bletchley Circle": {
         "ao3": "The Bletchley Circle",
-        "ffnet": "FAIL"
+        "ffnet": "Bletchley Circle"
     },
-    "The Borgias (2011)": {
+    "The Borgias": {
         "ao3": "The Borgias (2011)",
-        "ffnet": "FAIL"
+        "ffnet": "Borgias"
     },
     "The Cape (2011)": {
         "ao3": "The Cape (2011)",
@@ -2992,7 +2732,7 @@
         "ao3": "The Dukes of Hazzard (TV)",
         "ffnet": "Dukes of Hazzard"
     },
-    "The Eagle - Ambiguous Fandom": {
+    "The Eagle": {
         "ao3": "The Eagle - Ambiguous Fandom",
         "ffnet": "FAIL"
     },
@@ -3000,11 +2740,11 @@
         "ao3": "The Facts of Life",
         "ffnet": "Facts of Life"
     },
-    "The Fall (TV 2013)": {
+    "The Fall": {
         "ao3": "The Fall (TV 2013)",
-        "ffnet": "FAIL"
+        "ffnet": "Fall"
     },
-    "The Flash - All Media Types": {
+    "The Flash": {
         "ao3": "The Flash - All Media Types",
         "ffnet": "Flash"
     },
@@ -3024,17 +2764,13 @@
         "ao3": "The Good Wife (TV)",
         "ffnet": "Good Wife"
     },
-    "The Grand Tour (TV) RPF": {
-        "ao3": "The Grand Tour (TV) RPF",
-        "ffnet": "FAIL"
-    },
-    "The Hollow Crown (2012)": {
+    "The Hollow Crown": {
         "ao3": "The Hollow Crown (2012)",
-        "ffnet": "FAIL"
+        "ffnet": "Hollow Crown"
     },
     "The Hour": {
         "ao3": "The Hour",
-        "ffnet": "FAIL"
+        "ffnet": "Hour, 2011"
     },
     "The Invisible Man": {
         "ao3": "The Invisible Man - All Media Types",
@@ -3062,11 +2798,11 @@
     },
     "The Lone Ranger - All Media Types": {
         "ao3": "The Lone Ranger - All Media Types",
-        "ffnet": "FAIL"
+        "ffnet": "Lone Ranger"
     },
     "The Magicians": {
         "ao3": "The Magicians (TV)",
-        "ffnet": "FAIL"
+        "ffnet": "Magicians"
     },
     "The Magnificent Seven": {
         "ao3": "The Magnificent Seven (TV)",
@@ -3114,7 +2850,7 @@
     },
     "The Night Manager": {
         "ao3": "The Night Manager (TV)",
-        "ffnet": "FAIL"
+        "ffnet": "Night Manager"
     },
     "The OC": {
         "ao3": "The OC",
@@ -3134,7 +2870,7 @@
     },
     "The Persuaders": {
         "ao3": "The Persuaders",
-        "ffnet": "FAIL"
+        "ffnet": "Persuaders"
     },
     "The Pretender": {
         "ao3": "The Pretender (TV)",
@@ -3150,218 +2886,134 @@
     },
     "The Royals (TV 2015)": {
         "ao3": "The Royals (TV 2015)",
-        "ffnet": "FAIL"
-    },
-    "The Runaways - Ambiguous Fandom": {
-        "ao3": "The Runaways - Ambiguous Fandom",
-        "ffnet": "FAIL"
+        "ffnet": "Royals"
     },
     "The Secret Circle": {
         "ao3": "The Secret Circle (TV)",
-        "ffnet": "FAIL"
+        "ffnet": "Secret Circle"
     },
     "The Sentinel": {
         "ao3": "The Sentinel",
-        "ffnet": "FAIL"
-    },
-    "The Shadowhunter Chronicles - All Media Types": {
-        "ao3": "The Shadowhunter Chronicles - All Media Types",
-        "ffnet": "FAIL"
+        "ffnet": "Sentinel"
     },
     "The Shannara Chronicles": {
         "ao3": "The Shannara Chronicles (TV)",
-        "ffnet": "FAIL"
-    },
-    "The Simpsons": {
-        "ao3": "The Simpsons",
-        "ffnet": "FAIL"
+        "ffnet": "Shannara Chronicles"
     },
     "The Strain": {
         "ao3": "The Strain (TV)",
-        "ffnet": "FAIL"
+        "ffnet": "Strain"
     },
     "The Thick of It": {
         "ao3": "The Thick of It (TV)",
         "ffnet": "Thick of It"
     },
-    "The Tomorrow People (1992)": {
+    "The Tomorrow People": {
         "ao3": "The Tomorrow People (1992)",
-        "ffnet": "FAIL"
+        "ffnet": "Tomorrow People"
     },
-    "The Tomorrow People (2013)": {
+    "The Tomorrow People, 2013": {
         "ao3": "The Tomorrow People (2013)",
-        "ffnet": "FAIL"
-    },
-    "The Tomorrow People - All Media Types": {
-        "ao3": "The Tomorrow People - All Media Types",
-        "ffnet": "FAIL"
+        "ffnet": "Tomorrow People, 2013"
     },
     "The Tudors": {
         "ao3": "The Tudors (TV)",
-        "ffnet": "FAIL"
+        "ffnet": "Tudors"
     },
     "The Unit": {
         "ao3": "The Unit",
-        "ffnet": "FAIL"
+        "ffnet": "Unit"
     },
     "The Unusuals": {
         "ao3": "The Unusuals",
-        "ffnet": "FAIL"
+        "ffnet": "Unusuals"
     },
     "The Vampire Diaries": {
         "ao3": "The Vampire Diaries (TV)",
-        "ffnet": "FAIL"
-    },
-    "The Vampire Diaries & Related Fandoms": {
-        "ao3": "The Vampire Diaries & Related Fandoms",
-        "ffnet": "FAIL"
-    },
-    "The Voice (US) RPF": {
-        "ao3": "The Voice (US) RPF",
-        "ffnet": "FAIL"
-    },
-    "The Voice RPF": {
-        "ao3": "The Voice RPF",
-        "ffnet": "FAIL"
+        "ffnet": "Vampire Diaries"
     },
     "The Walking Dead": {
         "ao3": "The Walking Dead (TV)",
-        "ffnet": "FAIL"
-    },
-    "The Walking Dead & Related Fandoms": {
-        "ao3": "The Walking Dead & Related Fandoms",
-        "ffnet": "FAIL"
+        "ffnet": "Walking Dead"
     },
     "The West Wing": {
         "ao3": "The West Wing",
-        "ffnet": "FAIL"
+        "ffnet": "West Wing"
     },
     "The White Queen": {
         "ao3": "The White Queen (TV)",
-        "ffnet": "FAIL"
+        "ffnet": "White Queen"
     },
     "The Wire": {
         "ao3": "The Wire",
-        "ffnet": "FAIL"
-    },
-    "The Wizard of Oz & Related Fandoms": {
-        "ao3": "The Wizard of Oz & Related Fandoms",
-        "ffnet": "FAIL"
+        "ffnet": "Wire"
     },
     "The X-Files": {
         "ao3": "The X-Files",
-        "ffnet": "FAIL"
+        "ffnet": "X-Files"
     },
-    "The Young Ones (TV 1982)": {
+    "The Young Ones": {
         "ao3": "The Young Ones (TV 1982)",
-        "ffnet": "FAIL"
+        "ffnet": "Young Ones"
     },
     "The Young Riders": {
         "ao3": "The Young Riders",
-        "ffnet": "FAIL"
+        "ffnet": "Young Riders"
     },
     "Third Watch": {
         "ao3": "Third Watch",
         "ffnet": "Third Watch"
     },
-    "Thomas the Tank Engine - All Media Types": {
-        "ao3": "Thomas the Tank Engine - All Media Types",
-        "ffnet": "FAIL"
-    },
-    "Thor - All Media Types": {
-        "ao3": "Thor - All Media Types",
-        "ffnet": "FAIL"
-    },
-    "Three Kingdoms History & Adaptations - All Media Types": {
-        "ao3": "Three Kingdoms History & Adaptations - All Media Types",
-        "ffnet": "FAIL"
-    },
-    "Three\\'s Company": {
-        "ao3": "FAIL",
+    "Three's Company": {
+        "ao3": "Three's Company",
         "ffnet": "Three\\'s Company"
     },
     "Thunderbirds": {
         "ao3": "Thunderbirds",
         "ffnet": "Thunderbirds"
     },
-    "Thundermans": {
-        "ao3": "FAIL",
+    "The Thundermans": {
+        "ao3": "The Thundermans",
         "ffnet": "Thundermans"
     },
     "Timeless": {
-        "ao3": "FAIL",
+        "ao3": "Timeless (TV 2016)",
         "ffnet": "Timeless"
     },
-    "Timeless (TV 2016)": {
-        "ao3": "Timeless (TV 2016)",
-        "ffnet": "FAIL"
-    },
     "Tin Man": {
-        "ao3": "FAIL",
-        "ffnet": "Tin Man"
-    },
-    "Tin Man (2007)": {
         "ao3": "Tin Man (2007)",
-        "ffnet": "FAIL"
-    },
-    "Tokumei Sentai Go-Busters": {
-        "ao3": "Tokumei Sentai Go-Busters",
-        "ffnet": "FAIL"
-    },
-    "Tokusatsu": {
-        "ao3": "Tokusatsu",
-        "ffnet": "FAIL"
-    },
-    "Tomorrow People": {
-        "ao3": "FAIL",
-        "ffnet": "Tomorrow People"
-    },
-    "Tomorrow People, 2013": {
-        "ao3": "FAIL",
-        "ffnet": "Tomorrow People, 2013"
-    },
-    "Tony Hill & Carol Jordan - All Media Types": {
-        "ao3": "Tony Hill & Carol Jordan - All Media Types",
-        "ffnet": "FAIL"
+        "ffnet": "Tin Man"
     },
     "Torchwood": {
         "ao3": "Torchwood",
         "ffnet": "Torchwood"
     },
     "Touched by an Angel": {
-        "ao3": "FAIL",
+        "ao3": "Touched by an Angel",
         "ffnet": "Touched by an Angel"
     },
     "Tour of Duty": {
-        "ao3": "FAIL",
+        "ao3": "Tour of Duty (1987)",
         "ffnet": "Tour of Duty"
     },
     "Tower Prep": {
-        "ao3": "FAIL",
+        "ao3": "Tower Prep",
         "ffnet": "Tower Prep"
     },
     "Tracker": {
-        "ao3": "FAIL",
+        "ao3": "Tracker (2001)",
         "ffnet": "Tracker"
     },
-    "Tremors - All Media Types": {
-        "ao3": "Tremors - All Media Types",
-        "ffnet": "FAIL"
-    },
-    "Tremors: The Series": {
-        "ao3": "Tremors: The Series",
-        "ffnet": "FAIL"
-    },
-    "Tribe": {
-        "ao3": "FAIL",
+    "The Tribe": {
+        "ao3": "The Tribe (TV)",
         "ffnet": "Tribe"
     },
-    "Troop": {
-        "ao3": "FAIL",
+    "The Troop": {
+        "ao3": "The Troop",
         "ffnet": "Troop"
     },
     "Tru Calling": {
-        "ao3": "FAIL",
+        "ao3": "Tru Calling",
         "ffnet": "Tru Calling"
     },
     "True Blood": {
@@ -3370,26 +3022,18 @@
     },
     "True Detective": {
         "ao3": "True Detective",
-        "ffnet": "FAIL"
+        "ffnet": "True Detective"
     },
     "True Jackson": {
-        "ao3": "FAIL",
+        "ao3": "True Jackson: VP",
         "ffnet": "True Jackson"
     },
-    "Tudors": {
-        "ao3": "FAIL",
-        "ffnet": "Tudors"
-    },
     "Turn": {
-        "ao3": "FAIL",
+        "ao3": "Turn (TV 2014)",
         "ffnet": "Turn"
     },
-    "Turn (TV 2014)": {
-        "ao3": "Turn (TV 2014)",
-        "ffnet": "FAIL"
-    },
     "Twilight Zone": {
-        "ao3": "FAIL",
+        "ao3": "Twilight Zone",
         "ffnet": "Twilight Zone"
     },
     "Twin Peaks": {
@@ -3401,92 +3045,64 @@
         "ffnet": "Twisted"
     },
     "Two and a Half Men": {
-        "ao3": "FAIL",
+        "ao3": "Two and a Half Men (TV)",
         "ffnet": "Two and a Half Men"
     },
     "UC: UnderCover": {
-        "ao3": "FAIL",
+        "ao3": "UC: Undercover",
         "ffnet": "UC: UnderCover"
     },
     "UFO": {
-        "ao3": "FAIL",
-        "ffnet": "UFO"
-    },
-    "UFO | Gerry Anderson's UFO": {
         "ao3": "UFO | Gerry Anderson's UFO",
-        "ffnet": "FAIL"
+        "ffnet": "UFO"
     },
     "Ugly Betty": {
         "ao3": "Ugly Betty",
         "ffnet": "Ugly Betty"
     },
     "Ultraman": {
-        "ao3": "FAIL",
+        "ao3": "ウルトラシリーズ | Ultra Series",
         "ffnet": "Ultraman"
     },
     "UnREAL": {
         "ao3": "UnREAL (TV)",
-        "ffnet": "FAIL"
+        "ffnet": "UnREAL"
     },
     "Under the Dome": {
-        "ao3": "FAIL",
+        "ao3": "Under The Dome (TV)",
         "ffnet": "Under the Dome"
     },
-    "Unit": {
-        "ao3": "FAIL",
-        "ffnet": "Unit"
-    },
     "Unnatural History": {
-        "ao3": "FAIL",
+        "ao3": "Unnatural History",
         "ffnet": "Unnatural History"
     },
-    "Unusuals": {
-        "ao3": "FAIL",
-        "ffnet": "Unusuals"
-    },
     "Upstairs Downstairs": {
-        "ao3": "FAIL",
+        "ao3": "Upstairs Downstairs",
         "ffnet": "Upstairs Downstairs"
     },
-    "V (1983)": {
+    "V, 1983": {
         "ao3": "V (1983)",
-        "ffnet": "FAIL"
-    },
-    "V (2009)": {
-        "ao3": "V (2009)",
-        "ffnet": "FAIL"
-    },
-    "V - All Media Types": {
-        "ao3": "V - All Media Types",
-        "ffnet": "FAIL"
-    },
-    "V, 1984": {
-        "ao3": "FAIL",
         "ffnet": "V, 1984"
     },
     "V, 2009": {
-        "ao3": "FAIL",
+        "ao3": "V (2009)",
         "ffnet": "V, 2009"
     },
-    "Vampire Diaries": {
-        "ao3": "FAIL",
-        "ffnet": "Vampire Diaries"
-    },
     "Vampire High": {
-        "ao3": "FAIL",
+        "ao3": "Vampire High",
         "ffnet": "Vampire High"
     },
     "Veep": {
         "ao3": "Veep (TV)",
-        "ffnet": "FAIL"
+        "ffnet": "Veep"
     },
     "Verbotene Liebe": {
-        "ao3": "FAIL",
+        "ao3": "Verbotene Liebe",
         "ffnet": "Verbotene Liebe"
     },
     "Veritas: The Quest": {
         "ao3": "Veritas: The Quest",
-        "ffnet": "FAIL"
+        "ffnet": "Veritas: The Quest"
     },
     "Verliebt in Berlin": {
         "ao3": "FAIL",
@@ -3496,17 +3112,13 @@
         "ao3": "Veronica Mars (TV)",
         "ffnet": "Veronica Mars"
     },
-    "Veronica Mars - All Media Types": {
-        "ao3": "Veronica Mars - All Media Types",
-        "ffnet": "FAIL"
-    },
-    "Versailles (TV 2015)": {
+    "Versailles": {
         "ao3": "Versailles (TV 2015)",
-        "ffnet": "FAIL"
+        "ffnet": "Versailles"
     },
     "Victoria": {
         "ao3": "Victoria (TV)",
-        "ffnet": "FAIL"
+        "ffnet": "Victoria"
     },
     "Victorious": {
         "ao3": "Victorious",
@@ -3521,7 +3133,7 @@
         "ffnet": "Voyage to the Bottom of the Sea"
     },
     "Voyagers!": {
-        "ao3": "FAIL",
+        "ao3": "Voyagers! (TV)",
         "ffnet": "Voyagers!"
     },
     "Waking the Dead": {
@@ -3529,36 +3141,20 @@
         "ffnet": "Waking the Dead"
     },
     "Walker, Texas Ranger": {
-        "ao3": "FAIL",
+        "ao3": "Walker Texas Ranger",
         "ffnet": "Walker, Texas Ranger"
     },
-    "Walking Dead": {
-        "ao3": "FAIL",
-        "ffnet": "Walking Dead"
-    },
     "Wallander": {
-        "ao3": "FAIL",
+        "ao3": "Wallander - All Media Types",
         "ffnet": "Wallander"
     },
-    "Wallander (UK TV)": {
-        "ao3": "Wallander (UK TV)",
-        "ffnet": "FAIL"
-    },
-    "Wallander - All Media Types": {
-        "ao3": "Wallander - All Media Types",
-        "ffnet": "FAIL"
-    },
-    "Waltons": {
+    "The Waltons": {
         "ao3": "FAIL",
         "ffnet": "Waltons"
     },
     "War of the Worlds": {
         "ao3": "War of the Worlds (TV)",
-        "ffnet": "FAIL"
-    },
-    "War of the Worlds - All Media Types": {
-        "ao3": "War of the Worlds - All Media Types",
-        "ffnet": "FAIL"
+        "ffnet": "War of the Worlds"
     },
     "Warehouse 13": {
         "ao3": "Warehouse 13",
@@ -3569,23 +3165,19 @@
         "ffnet": "Water Rats"
     },
     "Waterloo Road": {
-        "ao3": "FAIL",
+        "ao3": "Waterloo Road (TV)",
         "ffnet": "Waterloo Road"
     },
     "Wentworth": {
         "ao3": "Wentworth (TV)",
         "ffnet": "Wentworth"
     },
-    "West Wing": {
-        "ao3": "FAIL",
-        "ffnet": "West Wing"
-    },
     "Westworld": {
         "ao3": "Westworld (TV)",
-        "ffnet": "FAIL"
+        "ffnet": "Westworld"
     },
     "When Calls the Heart": {
-        "ao3": "FAIL",
+        "ao3": "When Calls the Heart (TV)",
         "ffnet": "When Calls the Heart"
     },
     "White Collar": {
@@ -3596,8 +3188,8 @@
         "ao3": "Whitechapel (TV)",
         "ffnet": "Whitechapel"
     },
-    "Who\\'s the Boss?": {
-        "ao3": "FAIL",
+    "Who's the Boss?": {
+        "ao3": "Who's the Boss?",
         "ffnet": "Who\\'s the Boss?"
     },
     "Wild Card": {
@@ -3613,11 +3205,11 @@
         "ffnet": "Wild at Heart"
     },
     "Wildfire": {
-        "ao3": "FAIL",
+        "ao3": "Wildfire",
         "ffnet": "Wildfire"
     },
     "Will and Grace": {
-        "ao3": "FAIL",
+        "ao3": "Will & Grace",
         "ffnet": "Will and Grace"
     },
     "Wire in the Blood": {
@@ -3626,18 +3218,14 @@
     },
     "Wiseguy": {
         "ao3": "Wiseguy",
-        "ffnet": "FAIL"
+        "ffnet": "Wiseguy"
     },
     "Witchblade": {
         "ao3": "Witchblade (TV)",
         "ffnet": "Witchblade"
     },
-    "Witchblade - All Media Types": {
-        "ao3": "Witchblade - All Media Types",
-        "ffnet": "FAIL"
-    },
     "Witches of East End": {
-        "ao3": "FAIL",
+        "ao3": "Witches of East End (TV)",
         "ffnet": "Witches of East End"
     },
     "Without a Trace": {
@@ -3649,35 +3237,31 @@
         "ffnet": "Wizards of Waverly Place"
     },
     "Wizards vs. Aliens": {
-        "ao3": "FAIL",
+        "ao3": "Wizards vs Aliens",
         "ffnet": "Wizards vs. Aliens"
     },
     "Wolf Lake": {
-        "ao3": "FAIL",
+        "ao3": "Wolf Lake",
         "ffnet": "Wolf Lake"
     },
     "Wolfblood": {
-        "ao3": "FAIL",
+        "ao3": "Wolfblood (TV)",
         "ffnet": "Wolfblood"
     },
     "Women's Murder Club": {
         "ao3": "Women's Murder Club (TV)",
-        "ffnet": "FAIL"
-    },
-    "Women\\'s Murder Club": {
-        "ao3": "FAIL",
         "ffnet": "Women\\'s Murder Club"
     },
-    "Wonder Woman - All Media Types": {
+    "Wonder Woman": {
         "ao3": "Wonder Woman - All Media Types",
-        "ffnet": "FAIL"
+        "ffnet": "Wonder Woman"
     },
     "Wonderfalls": {
         "ao3": "Wonderfalls",
-        "ffnet": "FAIL"
+        "ffnet": "Wonderfalls"
     },
-    "Worst Witch": {
-        "ao3": "FAIL",
+    "The Worst Witch": {
+        "ao3": "The Worst Witch (TV)",
         "ffnet": "Worst Witch"
     },
     "Wynonna Earp": {
@@ -3686,23 +3270,7 @@
     },
     "X Company": {
         "ao3": "X Company (TV)",
-        "ffnet": "FAIL"
-    },
-    "X Factor (UK) RPF": {
-        "ao3": "X Factor (UK) RPF",
-        "ffnet": "FAIL"
-    },
-    "X Factor (US) RPF": {
-        "ao3": "X Factor (US) RPF",
-        "ffnet": "FAIL"
-    },
-    "X Factor RPF": {
-        "ao3": "X Factor RPF",
-        "ffnet": "FAIL"
-    },
-    "X-Files": {
-        "ao3": "FAIL",
-        "ffnet": "X-Files"
+        "ffnet": "X Company"
     },
     "Xena: Warrior Princess": {
         "ao3": "Xena: Warrior Princess",
@@ -3710,26 +3278,26 @@
     },
     "Yes Minister": {
         "ao3": "Yes Minister",
-        "ffnet": "FAIL"
+        "ffnet": "Yes Minister"
     },
     "Yes Prime Minister": {
         "ao3": "Yes Prime Minister",
-        "ffnet": "FAIL"
+        "ffnet": "Yes, Prime Minister"
     },
-    "You\\'re Beautiful/미남이시네요": {
-        "ao3": "FAIL",
+    "You're Beautiful": {
+        "ao3": "미남이시네요 | You're Beautiful",
         "ffnet": "You\\'re Beautiful/미남이시네요"
     },
     "Young & Hungry": {
-        "ao3": "FAIL",
+        "ao3": "Young & Hungry",
         "ffnet": "Young & Hungry"
     },
     "Young Americans": {
-        "ao3": "FAIL",
+        "ao3": "Young Americans (TV)",
         "ffnet": "Young Americans"
     },
     "Young Blades": {
-        "ao3": "FAIL",
+        "ao3": "Young Blades (TV)",
         "ffnet": "Young Blades"
     },
     "Young Dracula": {
@@ -3737,19 +3305,11 @@
         "ffnet": "Young Dracula"
     },
     "Young Hercules": {
-        "ao3": "FAIL",
+        "ao3": "Young Hercules",
         "ffnet": "Young Hercules"
     },
-    "Young Ones": {
-        "ao3": "FAIL",
-        "ffnet": "Young Ones"
-    },
-    "Young Riders": {
-        "ao3": "FAIL",
-        "ffnet": "Young Riders"
-    },
-    "Young and the Restless": {
-        "ao3": "FAIL",
+    "The Young and the Restless": {
+        "ao3": "The Young and the Restless",
         "ffnet": "Young and the Restless"
     },
     "Z Nation": {
@@ -3757,28 +3317,16 @@
         "ffnet": "Z Nation"
     },
     "Zoey 101": {
-        "ao3": "FAIL",
+        "ao3": "Zoey 101",
         "ffnet": "Zoey 101"
     },
     "Zoo": {
-        "ao3": "FAIL",
+        "ao3": "Zoo (TV)",
         "ffnet": "Zoo"
     },
     "Zorro": {
-        "ao3": "FAIL",
-        "ffnet": "Zorro"
-    },
-    "Zorro (TV 1990)": {
-        "ao3": "Zorro (TV 1990)",
-        "ffnet": "FAIL"
-    },
-    "Zorro - All Media Types": {
         "ao3": "Zorro - All Media Types",
-        "ffnet": "FAIL"
-    },
-    "Zyuden Sentai Kyoryuger": {
-        "ao3": "Zyuden Sentai Kyoryuger",
-        "ffnet": "FAIL"
+        "ffnet": "Zorro"
     },
     "iCarly": {
         "ao3": "iCarly",
@@ -3788,33 +3336,17 @@
         "ao3": "iZombie (TV)",
         "ffnet": "iZombie"
     },
-    "seaQuest": {
-        "ao3": "seaQuest",
-        "ffnet": "FAIL"
-    },
-    "سندباد | Sinbad - All Media Types": {
-        "ao3": "سندباد | Sinbad - All Media Types",
-        "ffnet": "FAIL"
-    },
-    "महाभारत | Mahabharat (TV 2013)": {
+    "Mahabharat, 2013": {
         "ao3": "महाभारत | Mahabharat (TV 2013)",
         "ffnet": "FAIL"
     },
-    "ウルトラシリーズ | Ultra Series": {
-        "ao3": "ウルトラシリーズ | Ultra Series",
-        "ffnet": "FAIL"
-    },
-    "伪装者 | The Disguiser": {
+    "The Disguiser": {
         "ao3": "伪装者 | The Disguiser (TV)",
         "ffnet": "FAIL"
     },
-    "烈車戦隊トッキュウジャー | Ressha Sentai ToQger": {
-        "ao3": "烈車戦隊トッキュウジャー | Ressha Sentai ToQger",
-        "ffnet": "FAIL"
-    },
-    "琅琊榜 | Nirvana in Fire": {
+    "Nirvana in Fire": {
         "ao3": "琅琊榜 | Nirvana in Fire (TV)",
-        "ffnet": "FAIL"
+        "ffnet": "Nirvana in Fire/琅琊榜"
     },
     "The Heirs": {
         "ao3": "상속자들 | The Heirs",
@@ -3822,6 +3354,6 @@
     },
     "태양의 후예 | Descendants of the Sun": {
         "ao3": "태양의 후예 | Descendants of the Sun (TV)",
-        "ffnet": "FAIL"
+        "ffnet": "Descendants of the Sun/태양의 후예"
     }
 }

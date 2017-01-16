@@ -1,3 +1,9 @@
+/* Fanfiction.css
+*  Name: Sanne Meijering
+*  Student number: 10783709
+* CSS-file for data visualization project
+*/
+
 body {
   background-color: #DDB0EE;
 }
@@ -29,7 +35,7 @@ select {
   width: 600px;
 }
 #maintitle {
-  left: 340px;
+  left: 340px;*
   top: 5px;
 }
 #main {

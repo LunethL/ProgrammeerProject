@@ -1,7 +1,8 @@
 # Name: Sanne Meijering
 # Student number: 10783709
 '''
-This script scrapes AO3 and outputs a JSON file with tv series.
+This script scrapes AO3 and outputs a JSON file with tv series,
+amount of fanfiction and a link to the series page.
 '''
 import scrapy
 
@@ -18,9 +19,8 @@ class AO3Spider(scrapy.Spider):
         for series in table.xpath('li//li'):
             fanfiction = int(series.css('::text')[2].extract()[18:-14])
 
-            if fanfiction > 50:
-                yield {
-                    'name': series.css('a::text').extract_first(),
-                    'fanfiction': fanfiction,
-                    'href': series.css('a::attr(href)').extract_first()
-                }
+            yield {
+                'name': series.css('a::text').extract_first(),
+                'fanfiction': fanfiction,
+                'href': series.css('a::attr(href)').extract_first()
+            }

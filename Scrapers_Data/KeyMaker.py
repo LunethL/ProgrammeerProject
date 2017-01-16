@@ -1,4 +1,11 @@
+# Name: Sanne Meijering
+# Student number: 10783709
 # encoding: utf-8
+'''
+This program uses the json-files from the FFscraper and AO3scraper to make a
+title key for television series.
+'''
+
 import json, codecs
 
 with open('ffnet.json') as data_file:
@@ -23,5 +30,5 @@ for series in ao3:
         tvdatabase[title] = {"ffnet": "FAIL", "ao3": series["name"]}
 
 # Write to json file
-with codecs.open('key.json', 'w', encoding='utf-8') as f:
+with codecs.open('key2.json', 'w', encoding='utf-8') as f:
     json.dump(tvdatabase, f, ensure_ascii=False, sort_keys = True, indent=4, separators=(',', ': '))
