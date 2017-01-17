@@ -1,6 +1,9 @@
 # Technical Design
 ### Sanne Meijering
 
+## Sketch
+![](doc/Sketch2.jpg)
+
 ## Diagram
 ![](doc/TechDesign.JPG)
 
