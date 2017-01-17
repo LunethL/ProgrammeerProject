@@ -3,7 +3,8 @@
 # encoding: utf-8
 '''
 This program uses the json-files from the FFscraper and AO3scraper to make a
-title key for television series.
+title key for television series
+Unused: Key only has to be made once
 '''
 
 import json, codecs

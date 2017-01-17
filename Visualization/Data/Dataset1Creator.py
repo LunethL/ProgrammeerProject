@@ -32,7 +32,7 @@ for title in key:
 
     if name["ao3"] != "FAIL":
         for series in ao3:
-            if series["name"] == name["ffnet"]:
+            if series["name"] == name["ao3"]:
                 ao3_fanfic = series["fanfiction"]
                 ao3_href = series["href"]
     else:

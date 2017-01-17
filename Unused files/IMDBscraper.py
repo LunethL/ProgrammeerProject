@@ -2,6 +2,7 @@
 # Student number: 10783709
 '''
 This script scrapes IMDB and outputs a JSON file with tv series.
+Unused: I decided not to use IMDB
 '''
 import scrapy
 
