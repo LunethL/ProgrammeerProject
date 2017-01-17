@@ -30,3 +30,6 @@ I made the HTML for the visualization, no new plans made.
 I completed the key, scraped all series from both sites and then used the key to make a database. With this, the first database is complete and I can start on the second database.
 
 ## Day 2
+
+I completed the first scraper that goes through all fanfics. Scraping whether the story was complete or incomplete turned out to be tricky, so I decided to scrape the language of the fanfic. Scraping all fanfiction takes some time, as expected, but it's at an acceptable level (by my calculation it will take around one hour and a half to scrape 1 million fanfics). I looked at the html of the second fanfiction site, and it looked a lot easier to scrape. As I made a seperate methods file, of which multiple methods can be used for the second scraper, I expect the second scraper to be done much faster. I also set up both the databases and made a sketch of them:
+![](doc/Database_sketch.jpg)
