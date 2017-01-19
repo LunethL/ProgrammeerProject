@@ -11,8 +11,8 @@ def key_maker(host):
     for title in database1:
         href = database1[title][host_key]
         if href != "FAIL":
+            href = href.split("/")[2]
             key[href] = title
-
     return key
 
 # Makes urls for all series on FF.net
@@ -27,6 +27,21 @@ def FF_url_maker():
         body = database1[title]["ffnet_href"]
         if body != "FAIL":
             url = "".join([head, body, tail])
+            urls.append(url)
+
+    return urls
+
+# Makes urls for all series on AO3.org
+def AO3_url_maker():
+    with open('database1.json') as data_file:
+        database1 = json.load(data_file)
+    urls = []
+    head = "http://archiveofourown.org"
+
+    for title in database1:
+        body = database1[title]["ao3_href"]
+        if body != "FAIL":
+            url = "".join([head, body])
             urls.append(url)
 
     return urls
@@ -71,6 +86,32 @@ def FF_extract_data(data):
     words = int("".join(words))
 
     return rating, language, chapters, words
+
+# Extracts date, rating, language, chapters and words from fanfiction data
+def AO3_extract_data(data):
+    rating_list = ["General Audiences", "Teen And Up Audiences", "Mature", "Explicit", "Not Rated"]
+    rating_symbols = ["K", "T", "M", "E", "N"]
+    month_list = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+
+    rating = data.css("span.rating::attr(title)").extract_first()
+    for i in range(len(rating_list)):
+        if rating == rating_list[i]:
+            rating = rating_symbols[i]
+
+    date = data.css("p.datetime::text").extract_first().split(" ")
+    if date[0] == "":
+        date = date[1:]
+    for i in range(len(month_list)):
+        if date[1] == month_list[i]:
+            date[1] = i + 1
+    date = datetime(int(date[2]), date[1], int(date[0]))
+
+    language = data.css("dd.language::text").extract_first()
+    words = data.css("dd.words::text").extract_first().split(",")
+    words = "".join(words)
+    chapters = data.css("dd.chapters::text").extract_first().split("/")[0]
+
+    return date, rating, language, chapters, words
 
 # Checks whether a key appear in a database, adds it if it doesn't. If a key has
 # a nested dictionary, returns key's dictionary
