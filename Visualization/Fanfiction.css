@@ -34,16 +34,34 @@ select {
   text-align: center;
   width: 600px;
 }
+.bar {
+  display: inline-block;
+  width: 20px;
+  height: 100px;
+  fill: teal;
+  margin-right: 2px;
+}
+.axis path,
+.axis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-family: sans-serif;
+    font-size: 11px;
+}
 #maintitle {
   left: 340px;*
   top: 5px;
 }
 #main {
   border: 1px solid black;
-  width: 600px;
+  width: 900px;
   height: 300px;
   position: absolute;
-  left: 340px;
+  left: 190px;
   top: 100px;
   background-color: white;
 }

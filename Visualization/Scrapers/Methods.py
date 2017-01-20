@@ -8,11 +8,11 @@ def key_maker(host):
     key = {}
     host_key = "_".join([host, "href"])
 
-    for title in database1:
-        href = database1[title][host_key]
+    for entry in database1:
+        href = database1[entry][host_key]
         if href != "FAIL":
             href = href.split("/")[2]
-            key[href] = title
+            key[href] = database1[entry][name]
     return key
 
 # Makes urls for all series on FF.net

@@ -16,7 +16,7 @@ with open('key.json') as data_file:
     key = json.load(data_file)
 
 # Create and fill database
-database = {}
+database = []
 
 for title in key:
     name = key[title]
@@ -39,8 +39,7 @@ for title in key:
         ao3_fanfic = 0
         ao3_href = "FAIL"
 
-    database[title] = {"ffnet": ffnet_fanfic, "ffnet_href": ffnet_href, "ao3": ao3_fanfic, "ao3_href": ao3_href}
-
+    database.append({"name": title, "ffnet": ffnet_fanfic, "ffnet_href": ffnet_href, "ao3": ao3_fanfic, "ao3_href": ao3_href})
 
 # Write to json file
 with codecs.open('database1.json', 'w', encoding='utf-8') as f:
