@@ -33,3 +33,25 @@ I completed the key, scraped all series from both sites and then used the key to
 
 I completed the first scraper that goes through all fanfics. Scraping whether the story was complete or incomplete turned out to be tricky, so I decided to scrape the language of the fanfic. Scraping all fanfiction takes some time, as expected, but it's at an acceptable level (by my calculation it will take around one hour and a half to scrape 1 million fanfics). I looked at the html of the second fanfiction site, and it looked a lot easier to scrape. As I made a seperate methods file, of which multiple methods can be used for the second scraper, I expect the second scraper to be done much faster. I also set up both the databases and made a sketch of them:
 ![](doc/Database_sketch.jpg)
+
+## Day 3
+
+The first scraper had a run time of 2,5 hours. I completed the second scraper that goes through all fanfics and ran it overnight.
+
+## Day 4
+
+I made a start on the bar chart. I realized the data was not in a useable format for D3, so I changed the format so that the level that has to be used by D3 is a list instead of a json/dict for database 1
+
+## Day 5
+
+I added multiple views on the bar chart, one for each site and one total.
+
+# Week 3
+
+## Day 1
+
+Over the weekend I updated and ran the second scaper for fanfiction.net. It was still not quite the right format though, so I updated the scraper again. I also updated the second scraper for ao3. I ran the fanfiction.net scraper over night.
+
+## Day 2
+
+The runtime of the FF.net scraper has increased to 3,5 hours, but the format is perfect
