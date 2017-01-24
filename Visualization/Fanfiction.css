@@ -47,13 +47,62 @@ select {
     stroke: black;
     shape-rendering: crispEdges;
 }
-
 .axis text {
     font-family: sans-serif;
     font-size: 11px;
 }
+.d3-slider {
+    position: relative;
+    font-family: Verdana,Arial,sans-serif;
+    font-size: 1.1em;
+    border: 1px solid #aaaaaa;
+    z-index: 2;
+}
+.d3-slider-range {
+  background:#2980b9;
+  left:0px;
+  right:0px;
+  height: 0.8em;
+  position: absolute;
+}
+
+.d3-slider-range-vertical {
+  background:#2980b9;
+  left:0px;
+  right:0px;
+  position: absolute;
+  top:0;
+}
+
+.d3-slider-vertical {
+    width: 20px;
+    height: 100px;
+}
+
+.d3-slider-handle {
+    position: absolute;
+    width: 1.2em;
+    height: 1.2em;
+    border: 1px solid #d3d3d3;
+    border-radius: 4px;
+    background: #eee;
+    z-index: 3;
+}
+.d3-slider-handle:hover {
+    border: 1px solid #999999;
+}
+.d3-slider-vertical .d3-slider-handle {
+    left: 10px;
+    margin-left: 0;
+    margin-top: 25px;
+    height: 200px;
+    width: 30px;
+}
+.tooltip {
+  z-index: 5;
+}
 #maintitle {
-  left: 340px;*
+  left: 340px;
   top: 5px;
 }
 #main {
@@ -90,4 +139,5 @@ select {
   left: 700px;
   top: 450px;
   background-color: white;
+  z-index: 1
 }
