@@ -30,8 +30,7 @@ class FFSpider(scrapy.Spider):
 
     # Parse page and continue to next page
     def parse(self, response):
-        href = str(response).split("/")[3:5]
-        href = "/".join(href)
+        href = str(response).split("/")[4]
         series = key[href]
 
         for fanfic in response.css("div.z-list"):
@@ -39,20 +38,17 @@ class FFSpider(scrapy.Spider):
             rating, language, chapters, words = M.FF_extract_data(data)
 
             date = fanfic.css("span::text").extract()
-            if len(date) == 2:
-                date = date[1]
-            else:
-                date = date[0]
+            date = date[-1]
             date = M.FF_get_date(date)
 
             if words > 0 and chapters > 0:
                 M.insert_data(database2, database3, host, series, date, rating, language, chapters, words)
 
-        line = response.css("center")
-        if line:
-            line = line[0]
-            if line.css("a::text")[-1].extract()[:-2] == "Next":
-                next_page = line.css('a::attr(href)')[-1].extract()
+        navigation = response.css("center")
+        if navigation:
+            next_button = navigation[0]
+            if next_button.css("a::text")[-1].extract()[:-2] == "Next":
+                next_page = next_button.css('a::attr(href)')[-1].extract()
                 next_page = response.urljoin(next_page)
                 yield scrapy.Request(next_page, callback=self.parse)
 
@@ -64,7 +60,7 @@ process.crawl(FFSpider)
 process.start()
 
 # Write to json file
-with codecs.open('database2.json', 'w', encoding='utf-8') as f:
+with codecs.open('Data/database2.json', 'w', encoding='utf-8') as f:
     json.dump(database2, f, ensure_ascii=False, sort_keys = True, indent=4, separators=(',', ': '))
-with codecs.open('database3.json', 'w', encoding='utf-8') as f:
+with codecs.open('Data/database3.json', 'w', encoding='utf-8') as f:
     json.dump(database3, f, ensure_ascii=False, sort_keys = True, indent=4, separators=(',', ': '))

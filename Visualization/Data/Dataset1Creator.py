@@ -8,11 +8,11 @@ dataset.
 import json, codecs
 
 # Open files
-with open('ffnet.json') as data_file:
+with open('Data/ffnet.json') as data_file:
     ffnet = json.load(data_file)
-with open('ao3.json') as data_file:
+with open('Data/ao3.json') as data_file:
     ao3 = json.load(data_file)
-with open('key.json') as data_file:
+with open('Data/key.json') as data_file:
     key = json.load(data_file)
 
 # Create and fill database
@@ -42,5 +42,5 @@ for title in key:
     database.append({"name": title, "ffnet": ffnet_fanfic, "ffnet_href": ffnet_href, "ao3": ao3_fanfic, "ao3_href": ao3_href})
 
 # Write to json file
-with codecs.open('database1.json', 'w', encoding='utf-8') as f:
+with codecs.open('Data/database1.json', 'w', encoding='utf-8') as f:
     json.dump(database, f, ensure_ascii=False, sort_keys = True, indent=4, separators=(',', ': '))

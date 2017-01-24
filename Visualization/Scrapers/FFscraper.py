@@ -4,7 +4,9 @@
 This script scrapes FF.net and outputs a JSON file with tv series,
 amount of fanfiction and a link to the series page.
 '''
-import scrapy
+import scrapy, logging
+
+logging.disable(logging.DEBUG)
 
 TARGET_URL = "https://www.fanfiction.net/tv/"
 

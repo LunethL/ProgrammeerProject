@@ -4,8 +4,9 @@
 This script scrapes AO3 and outputs a JSON file with tv series,
 amount of fanfiction and a link to the series page.
 '''
-import scrapy
+import scrapy, logging
 
+logging.disable(logging.DEBUG)
 TARGET_URL = "http://archiveofourown.org/media/TV%20Shows/fandoms"
 
 # Scraper that moves to the next page

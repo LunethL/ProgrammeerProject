@@ -18,9 +18,9 @@ logging.disable(logging.DEBUG)
 
 host = "ao3"
 key = M.key_maker(host)
-with open('database2.json') as data_file:
+with open('Data/database2.json') as data_file:
     database2 = json.load(data_file)
-with open('database3.json') as data_file:
+with open('Data/database3.json') as data_file:
     database3 = json.load(data_file)
 
 # Scraper that moves to the next page
@@ -56,7 +56,7 @@ process.crawl(AO3Spider)
 process.start()
 
 # Write to json file
-with codecs.open('database2_complete.json', 'w', encoding='utf-8') as f:
+with codecs.open('Data/database2_complete.json', 'w', encoding='utf-8') as f:
     json.dump(database2, f, ensure_ascii=False, sort_keys = True, indent=4, separators=(',', ': '))
-with codecs.open('database3_complete.json', 'w', encoding='utf-8') as f:
+with codecs.open('Data/database3_complete.json', 'w', encoding='utf-8') as f:
     json.dump(database3, f, ensure_ascii=False, sort_keys = True, indent=4, separators=(',', ': '))
