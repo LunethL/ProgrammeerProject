@@ -109,7 +109,8 @@ def AO3_extract_data(data):
     for i in range(len(month_list)):
         if date[1] == month_list[i]:
             date[1] = i + 1
-    date = datetime.date(int(date[2]), date[1], int(date[0]))
+    date = datetime(int(date[2]), date[1], int(date[0]))
+    date = datetime.date(date)
 
     language = data.css("dd.language::text").extract_first()
     words = data.css("dd.words::text").extract_first().split(",")
