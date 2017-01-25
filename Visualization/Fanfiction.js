@@ -10,7 +10,7 @@ var h = 300;
 var barPadding = 4;
 var padding = {"top": 50, "left": 250, "right": 10, "bottom": 10}
 var returnValue = function(d) {return d.ffnet + d.ao3};
-var shown_data = [0, 20]
+var shown_data = [0, 19]
 
 $(document).ready(function() {
   d3.json("Data/database1.json", function(error, data) {

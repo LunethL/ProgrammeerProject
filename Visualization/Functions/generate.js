@@ -19,15 +19,18 @@ function generateMain() {
     .attr("width", w)
     .attr("height", h);
 
+    console.log(shown_data);
   var slider = d3.slider()
-      .value([shown_data[0], shown_data[1]])
+      .scale(d3.scale.linear().domain([dataset1.length - 19, 0]))
+      .value(20)
       .orientation("vertical")
       .on("slide", function(evt, value) {
-          shown_data[0] = value[0]
-          shown_data[1] = value[1]
+          shown_data[0] = Math.floor(value);
+          shown_data[1] = Math.floor(value + 19);
+          updateMain()
         });
 
-  svg_main.append("g")
+  d3.select("#main_div").append("div")
     .call(slider);
 
   svg_main.selectAll("rect")
@@ -38,7 +41,7 @@ function generateMain() {
     .attr("y", function(d) { return yScale(d.name) + padding["top"]})
     .attr("width", function(d) {return xScale(returnValue(d))})
     .attr("height", function(d){return (h / temp.length) - barPadding})
-    .attr("fill", function(d) {return "rgb(0, 0, " + ((returnValue(d) / max) * 255) + ")"});
+    .attr("fill", function(d) {return "rgb(0, 0, " + (Math.floor((returnValue(d) / max) * 255)) + ")"});
 
     svg_main.selectAll("text")
      .data(temp)
