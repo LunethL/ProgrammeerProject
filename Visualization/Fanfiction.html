@@ -28,35 +28,36 @@
       <svg id="main"></svg>
     </div>
     <div>
-      <h3 class=title id=pietitle>
-        Distribution of
-        <select class=select>
-          <option value="rating" selected>age rating</option>
-          <option value="host">host site</option>
-          <option value="language">language</option>
-          <option value="word">word range</option>
-          <option value="chapter">chapter range</option>
-        </select>
-        <select class=select>
-          <option value="total" selected>in total</option>
-          <option value="year">in one year</option>
-        </select>
-      </h3>
-      <h3 class=title id=calendartitle>
-        Number of fanfictions released per day in
-        <select class=select>
-          <option value="2016" selected>2016</option>
-          <option value="2015">2015</option>
-          <option value="2014">2014</option>
-          <option value="2013">2013</option>
-          <option value="2012">2012</option>
-        </select>
-      </h3>
-      <svg id="calendar">
-      </svg>
-      <svg id="pie">
-        <br>
-      </svg>
+      <div id="calendar_div">
+        <h3 class=title id=calendartitle>
+          Number of fanfictions released per day in
+          <select class=select id="year">
+            <option value="2016" selected>2016</option>
+            <option value="2015">2015</option>
+            <option value="2014">2014</option>
+            <option value="2013">2013</option>
+            <option value="2012">2012</option>
+          </select>
+        </h3>
+        <svg id="calendar">
+        </svg>
+      </div>
+      <div id="pie_div">
+        <h3 class=title id=pietitle>
+          Distribution of
+          <select class=select id="group">
+            <option value="rating" selected>age rating</option>
+            <option value="language">language</option>
+            <option value="words">word range</option>
+            <option value="chapters">chapter range</option>
+          </select>
+          <select class=select id="range">
+            <option value="total" selected>in total</option>
+            <option value="year">in one year</option>
+          </select>
+        </h3>
+        <svg id="pie"></svg>
+      </div>
     </div>
   </body>
 </html>
