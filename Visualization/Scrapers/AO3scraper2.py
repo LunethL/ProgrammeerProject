@@ -9,9 +9,7 @@ date and by series
 '''
 
 import Methods as M
-import scrapy
-import codecs, json
-import logging
+import scrapy, codecs, json, logging
 from scrapy.crawler import CrawlerProcess
 
 logging.disable(logging.DEBUG)
@@ -35,18 +33,16 @@ class AO3Spider(scrapy.Spider):
         series = key[href]
 
         for fanfic in response.css("li.blurb"):
-            date, rating, language, chapters, words = M.AO3_extract_data(fanfic)
+            date, rating, chapters, words = M.AO3_extract_data(fanfic)
 
             if words > 0 and chapters > 0:
-                M.insert_data(database2, database3, host, series, date, rating, language, chapters, words)
+                M.insert_data(database2, database3, host, series, date, rating, chapters, words)
 
         next_button = response.css("li.next")
         if next_button:
             next_page = next_button[0].css('a::attr(href)').extract_first()
             next_page = response.urljoin(next_page)
             yield scrapy.Request(next_page, callback=self.parse)
-        else:
-            logging.info(series + " done")
 
 process = CrawlerProcess({
     'USER_AGENT': 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)'

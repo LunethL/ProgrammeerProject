@@ -8,13 +8,15 @@
     <script src="Packages/d3.slider.js"></script>
     <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-
+    <script src="Functions/variables.js"></script>
     <script src="Functions/general.js"></script>
     <script src="Functions/generate.js"></script>
     <script src="Functions/update.js"></script>
     <script src="Fanfiction.js"></script>
   </head>
   <body>
+    <img id="info1" src="Info-button.ico" width=50 height=50 left=20 top=20>
+    <text id='series_text'>Series selected:None</text>
     <h2 class=title id=maintitle>
       Amount of fanfiction per TV series
     </h2>
@@ -37,6 +39,8 @@
             <option value="2014">2014</option>
             <option value="2013">2013</option>
             <option value="2012">2012</option>
+            <option value="2011">2011</option>
+            <option value="2010">2010</option>
           </select>
         </h3>
         <svg id="calendar">
@@ -47,7 +51,6 @@
           Distribution of
           <select class=select id="group">
             <option value="rating" selected>age rating</option>
-            <option value="language">language</option>
             <option value="words">word range</option>
             <option value="chapters">chapter range</option>
           </select>

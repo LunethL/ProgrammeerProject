@@ -16,7 +16,7 @@ select {
 .buttonview {
   text-align: center;
   position: absolute;
-  left: 400px;
+  left: 350px;
   top: 60px;
 }
 .button {
@@ -50,6 +50,21 @@ select {
     font-family: sans-serif;
     font-size: 11px;
 }
+.tooltip {
+  position: absolute;
+  text-align: center;
+  width: auto;
+  height: auto;
+  padding: 5px;
+  margin-top: -20px;
+  font: 10px sans-serif;
+  background: #ddd;
+  pointer-events: none;
+  z-index: 100;
+  border: 1px solid black;
+  border-radius: 15px;
+  display: none;
+}
 .d3-slider {
     position: relative;
     font-family: Verdana,Arial,sans-serif;
@@ -77,15 +92,6 @@ select {
     left: 60px;
     top: 100px;
 }
-.d3-slider-handle {
-    position: absolute;
-    width: 1.2em;
-    height: 1.2em;
-    border: 1px solid #d3d3d3;
-    border-radius: 4px;
-    background: #eee;
-    z-index: 3;
-}
 .d3-slider-handle:hover {
     border: 1px solid #999999;
 }
@@ -95,8 +101,27 @@ select {
     margin-top: 25px;
     height: 10px;
     width: 20px;
+    position: absolute;
+    border: 1px solid #d3d3d3;
+    border-radius: 4px;
+    background: #eee;
+    z-index: 3;
 }
-
+.day {
+  fill: #fff;
+  stroke: #ccc;
+}
+.month {
+  fill: none;
+  stroke: #000;
+  stroke-width: 2px;
+}
+#series_text {
+  position: absolute;
+  left: 800px;
+  top: 50px;
+  font-weight: bold;
+}
 #maintitle {
   left: 50px;
   top: 5px;
@@ -138,22 +163,5 @@ select {
   left: 1000px;
   top: 100px;
   background-color: white;
-  z-index: 1
-}
-#pie_tool {
-  width: 600px;
-  height: 300px;
-  position: absolute;
-  left: 700px;
-  top: 450px;
-}
-.day {
-  fill: #fff;
-  stroke: #ccc;
-}
-
-.month {
-  fill: none;
-  stroke: #000;
-  stroke-width: 2px;
+  z-index: 1;
 }

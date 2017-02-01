@@ -1,5 +1,4 @@
-import json
-import datetime
+import json, datetime
 from datetime import datetime, timedelta
 
 # Makes key for all series for either site
@@ -75,12 +74,11 @@ def FF_get_date(date):
 
     return date
 
-# Extracts rating, language, chapters and words from fanfiction data
+# Extracts rating, chapters and words from fanfiction data
 def FF_extract_data(data):
     data = data.split(" ")
 
     rating = data[1][0]
-    language = data[3]
 
     if data[5] == "Chapters:":
         chapters = int(data[6])
@@ -90,12 +88,12 @@ def FF_extract_data(data):
         words = data[11].split(",")
     words = int("".join(words))
 
-    return rating, language, chapters, words
+    return rating, chapters, words
 
-# Extracts date, rating, language, chapters and words from fanfiction data
+# Extracts date, rating, chapters and words from fanfiction data
 def AO3_extract_data(data):
     rating_list = ["General Audiences", "Teen And Up Audiences", "Mature", "Explicit", "Not Rated"]
-    rating_symbols = ["K", "T", "M", "E", "N"]
+    rating_symbols = ["K", "T", "M", "E", "Not Rated"]
     month_list = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 
     rating = data.css("span.rating::attr(title)").extract_first()
@@ -112,12 +110,15 @@ def AO3_extract_data(data):
     date = datetime(int(date[2]), date[1], int(date[0]))
     date = datetime.date(date)
 
-    language = data.css("dd.language::text").extract_first()
-    words = data.css("dd.words::text").extract_first().split(",")
-    words = int("".join(words))
+    words = data.css("dd.words::text").extract_first()
+    if words:
+        words = words.split(",")
+        words = int("".join(words))
+    else:
+        words = 0
     chapters = int(data.css("dd.chapters::text").extract_first().split("/")[0])
 
-    return date, rating, language, chapters, words
+    return date, rating, chapters, words
 
 # Checks whether a key appear in a database, adds it if it doesn't. If a key has
 # a nested dictionary, returns key's dictionary
@@ -155,11 +156,11 @@ def insert_data2(database2, host, series, date):
 
 
 # Inserts data into database3.
-def insert_data3(database3, host, series, year, rating, language, words, chapters):
+def insert_data3(database3, host, series, year, rating, words, chapters):
     row1_identifier = ["total", series]
     row2_identifier = ["total", str(year)]
-    row3_identifier = ["rating", "language", "words", "chapters"]
-    final_keys = [rating, language, words, chapters]
+    row3_identifier = ["rating", "words", "chapters"]
+    final_keys = [rating, words, chapters]
 
     for i in range(len(row1_identifier)):
         row1 = check_key(database3, row1_identifier[i], "dict")
@@ -181,7 +182,7 @@ def insert_data3(database3, host, series, year, rating, language, words, chapter
                         row3.append({row3_identifier[k]: final_keys[k], "amount": {"ffnet": 0, "ao3": 1}})
 
 # Inserts data into the databases
-def insert_data(database2, database3, host, series, date, rating, language, chapters, words):
+def insert_data(database2, database3, host, series, date, rating, chapters, words):
     word_key = [0, 1000, 5000, 10000, 20000, 40000, 60000, 100000]
     word_list = ["<1K","1K-5K", "5K-10K", "10K-20K", "20K-40K", "40K-60K", "60K-100K", ">100K"]
     chapter_key = [0, 1, 5, 10, 20, 40, 60, 100]
@@ -194,4 +195,4 @@ def insert_data(database2, database3, host, series, date, rating, language, chap
             chapter_range = chapter_list[i]
 
     insert_data2(database2, host, series, date)
-    insert_data3(database3, host, series, date.year, rating, language, word_range, chapter_range)
+    insert_data3(database3, host, series, date.year, rating, word_range, chapter_range)

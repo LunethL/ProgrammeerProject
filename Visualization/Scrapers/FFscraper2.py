@@ -9,9 +9,7 @@ date and by series
 '''
 
 import Methods as M
-import scrapy
-import codecs, json
-import logging
+import scrapy, codecs, json, logging
 from scrapy.crawler import CrawlerProcess
 
 logging.disable(logging.DEBUG)
@@ -35,14 +33,14 @@ class FFSpider(scrapy.Spider):
 
         for fanfic in response.css("div.z-list"):
             data = fanfic.css("div.z-padtop2::text").extract_first()
-            rating, language, chapters, words = M.FF_extract_data(data)
+            rating, chapters, words = M.FF_extract_data(data)
 
             date = fanfic.css("span::text").extract()
             date = date[-1]
             date = M.FF_get_date(date)
 
             if words > 0 and chapters > 0:
-                M.insert_data(database2, database3, host, series, date, rating, language, chapters, words)
+                M.insert_data(database2, database3, host, series, date, rating, chapters, words)
 
         navigation = response.css("center")
         if navigation:
