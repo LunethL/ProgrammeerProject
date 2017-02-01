@@ -1,0 +1,7 @@
+exclude:
+- /Unused files/.*
+- /Visualization/Packages/d3.slider.js
+component_depth: 1
+languages:
+- javascript
+- python
