@@ -29,14 +29,17 @@ d3.json("Data/database2_complete.json", function(error, data) {
     // Add event to buttons
     d3.select("#ffnet").on("click", function() {
       returnValue = function(d) {return d.ffnet};
+      renewHost("Fanfiction.net");
       updateAll();
     });
     d3.select("#ao3").on("click", function() {
       returnValue = function(d) {return d.ao3};
+      renewHost("Archiveofourown");
       updateAll();
     });
     d3.select("#total").on("click", function() {
       returnValue = function(d) {return d.ffnet + d.ao3};
+      renewHost("None");
       updateAll();
     });
 
@@ -73,5 +76,15 @@ d3.json("Data/database3_complete.json", function(error, data) {
       range_year = $("#range").val();
       updatePie();
     });
+  });
+});
+
+// Set events on information windows
+$(document).ready(function() {
+  d3.select("#close").on("click", function(){
+    d3.select("#info_main").style("display", "none");
+  });
+  d3.select("#info_main_img").on("click", function(){
+    d3.select("#info_main").style("display", "inline");
   });
 });

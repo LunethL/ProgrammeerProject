@@ -24,7 +24,6 @@ function getSVG() {
       .data(d3.range(Number(year), Number(year) + 1))
       .attr("width", w2)
       .attr("height", h2)
-      .attr("class", "RdYlGn")
     .append("g")
       .attr("class", "holder")
       .attr("transform", "translate(" + ((w2 - cellSize * 53) / 2 - 50) + "," + (h2 - cellSize * 7 - 15) + ")");

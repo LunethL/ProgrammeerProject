@@ -68,7 +68,7 @@ function generateCalendar() {
   var svg_cal = getSVG();
 
   // Add days and months
-  createCalendar();
+  createCalendar(svg_cal);
   // Fill days
   addData();
 }

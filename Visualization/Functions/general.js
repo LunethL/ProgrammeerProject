@@ -18,9 +18,19 @@ function updateAll() {
 function renewText(word) {
   d3.select("#series_text").remove();
   body = d3.select('body');
-  body.append('text')
+  body.append('h3')
+    .attr('class', 'title space')
     .attr('id', 'series_text')
     .text("Series selected: " + word);
+}
+// Renews the series selection text when a series is selected
+function renewHost(word) {
+  d3.select("#site_text").remove();
+  body = d3.select('body');
+  body.append('h3')
+    .attr('class', 'title space')
+    .attr('id', 'site_text')
+    .text("Site selected: " + word);
 }
 
 // Get the set of values that fit the group when the group variable is changed

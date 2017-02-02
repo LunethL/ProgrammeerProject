@@ -7,7 +7,7 @@
 // Make a tooltip
 function makeTip() {
   var tooltip = d3.select("#pie_div")
-    .append('div')
+    .append('g')
       .attr('class', 'tooltip')
       .attr('id', 'pie_tool')
   return tooltip;

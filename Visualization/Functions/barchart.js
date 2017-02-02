@@ -56,7 +56,7 @@ function makeSlider() {
 // Creates tooltip for the barchart
 function makeTipBar() {
   var tooltip_bar = d3.select("#main_div")
-    .append('div')
+    .append('g')
       .attr('class', 'tooltip')
       .attr('id', 'main_tool')
   return tooltip_bar;
