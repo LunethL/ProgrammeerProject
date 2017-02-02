@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Fanfiction</title>
+    <link rel="stylesheet" type="text/css" href="Fanfiction.css"></link>
+    <script src="Packages/d3.min.js"></script>
+    <script src="Packages/d3.slider.js"></script>
+    <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="Functions/variables.js"></script>
+    <script src="Functions/general.js"></script>
+    <script src="Functions/barchart.js"></script>
+    <script src="Functions/calendarchart.js"></script>
+    <script src="Functions/piechart.js"></script>
+    <script src="Functions/generate.js"></script>
+    <script src="Functions/update.js"></script>
+    <script src="Fanfiction.js"></script>
+  </head>
+  <body>
+    <img id="info_main" src="Info-button.ico" width=50 height=50 left=20 top=20>
+    <div id="main"
+    <text id="series_text">Series selected:None</text>
+    <h2 class=title id=maintitle>
+      Amount of fanfiction per TV series
+    </h2>
+    <div class=buttonview>
+      <button class=button id="total">Total</button>
+      <button class=button id="ffnet">Fanfiction.net</button>
+      <button class=button id="ao3">Archiveofourown</button>
+    </div>
+    <br>
+    <div id="main_div">
+      <svg id="main"></svg>
+    </div>
+    <div>
+      <div id="calendar_div">
+        <h3 class=title id="calendartitle">
+          Number of fanfictions released per day in
+          <select class=select id="year">
+            <option value="2016" selected>2016</option>
+            <option value="2015">2015</option>
+            <option value="2014">2014</option>
+            <option value="2013">2013</option>
+            <option value="2012">2012</option>
+            <option value="2011">2011</option>
+            <option value="2010">2010</option>
+          </select>
+        </h3>
+        <svg id="calendar">
+        </svg>
+      </div>
+      <div id="pie_div">
+        <h3 class=title id="pietitle">
+          Distribution of
+          <select class=select id="group">
+            <option value="rating" selected>age rating</option>
+            <option value="words">word range</option>
+            <option value="chapters">chapter range</option>
+          </select>
+          <select class=select id="range">
+            <option value="total" selected>in total</option>
+            <option value="year">in one year</option>
+          </select>
+        </h3>
+        <svg id="pie"></svg>
+      </div>
+    </div>
+    <div id="source">Sources: Fanfiction.net and Archive of our own</div>
+  </body>
+</html>

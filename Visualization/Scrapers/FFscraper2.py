@@ -14,23 +14,29 @@ from scrapy.crawler import CrawlerProcess
 
 logging.disable(logging.DEBUG)
 
+# Set host and make a href to series key
 host = "ffnet"
 key = M.key_maker(host)
+
+# Create databases
 database2 = {}
 database3 = {}
 
-# Scraper that moves to the next page
+# Crawling webscraper
 class FFSpider(scrapy.Spider):
-
     name = "fanfiction2"
+
+    # Set the start urls using database1
     urls = M.FF_url_maker()
     start_urls = urls
 
-    # Parse page and continue to next page
+    # Parse page
     def parse(self, response):
+        # Get the series
         href = str(response).split("/")[4]
         series = key[href]
 
+        # Extract the data of each fanfic and insert it into the databases
         for fanfic in response.css("div.z-list"):
             data = fanfic.css("div.z-padtop2::text").extract_first()
             rating, chapters, words = M.FF_extract_data(data)
@@ -42,6 +48,7 @@ class FFSpider(scrapy.Spider):
             if words > 0 and chapters > 0:
                 M.insert_data(database2, database3, host, series, date, rating, chapters, words)
 
+        # Go to the next page if there is one
         navigation = response.css("center")
         if navigation:
             next_button = navigation[0]
@@ -54,6 +61,7 @@ process = CrawlerProcess({
     'USER_AGENT': 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)'
 })
 
+# Start crawling
 process.crawl(FFSpider)
 process.start()
 

@@ -1,21 +1,21 @@
-/* Sets global variables */
+/* variables.js
+  Name: Sanne Meijering
+  Student ID: 10783709
+  Contains global variables.
+*/
 
 // Datasets
 var dataset1, dataset2, dataset3;
 
 // Variables for bar chart
 
-// Height and width for each chart
+// Height and width for bar chart
 var w = 900,
     h = 300;
 
 // Padding barchart
 var barPadding = 4;
 var padding = {"top": 50, "left": 250, "right": 10, "bottom": 10};
-
-// Other variables
-var returnValue = function(d) {return d.ffnet + d.ao3};
-var shown_data = [0, 19];
 
 // Variables for calendar chart
 // Height, width and cell size
@@ -51,7 +51,9 @@ var set = ["K", "T", "M", "E", "Not Rated"];
 var legendRectSize = radius * 0.06;
 var legendSpacing = radius * 0.05;
 
-// Variables for both calendar and pie chart
+// Variables altered by selections
+var returnValue = function(d) {return d.ffnet + d.ao3};
+var shown_data = [0, 19];
 var year = "2016";
 var series = "total";
 var range_year = "total";

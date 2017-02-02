@@ -1,8 +1,10 @@
-// Bar chart functions
-// Sorts bar chart by value
-function sortNumber(a,b) {
-    return returnValue(b) - returnValue(a);
-}
+/* barchart.js
+  Name: Sanne Meijering
+  Student ID: 10783709
+  Functions for bar chart creation
+  Inspired by the tutorial book Interactive Data Visualization for the Web
+  by Scott Murray
+*/
 
 // Creates sorted temporary dataset
 function getDataBar() {
@@ -11,7 +13,12 @@ function getDataBar() {
   return temp;
 }
 
-// Creates the xScale
+// Sorts all data by value
+function sortNumber(a,b) {
+    return returnValue(b) - returnValue(a);
+}
+
+// Creates the x-scale
 function getxScale(max) {
   var xScale = d3.scale.linear()
     .domain([0, max + (max / 100)])
@@ -19,7 +26,7 @@ function getxScale(max) {
   return xScale;
 }
 
-// Creates the yScale
+// Creates the y-scale by making an array of names
 function getyScale(temp) {
   var yArray = [];
   for (var i = 0; i <= (temp.length) - 1; i++) {
@@ -67,7 +74,7 @@ function update_SVG(svg_main, temp, max, xScale, yScale) {
     .attr("fill", function(d) {return "rgb(0, 0, " + (Math.floor((returnValue(d) / max) * 255)) + ")"});
 }
 
-// Adds text to the yAxis
+// Adds text to the y-axis
 function addText(svg_main, temp) {
   svg_main.selectAll("text")
    .data(temp)
@@ -78,7 +85,7 @@ function addText(svg_main, temp) {
    .attr("y", function(d, i) {return i * (h / temp.length) + 30});
 }
 
-// Create axis
+// Creates both axes
 function createAxis(svg_main, xScale, yScale) {
   xAxis = d3.svg.axis()
     .scale(xScale)

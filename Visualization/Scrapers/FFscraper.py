@@ -10,20 +10,25 @@ logging.disable(logging.DEBUG)
 
 TARGET_URL = "https://www.fanfiction.net/tv/"
 
-# Scraper that moves to the next page
+# Webscraper
 class FFSpider(scrapy.Spider):
     name = "fanfiction"
     start_urls = [TARGET_URL]
 
-    # Parse page and continue to next page
+    # Parse page
     def parse(self, response):
+
+        # Select table
         table = response.css("div#list_output")
+
+        # Select series
         for series in table.css('div'):
             fanfiction = series.css('span.gray::text').extract_first()[1:-1]
             if fanfiction[-1] == 'K':
                 fanfiction = float(fanfiction[:-1]) * 1000
             fanfiction = int(fanfiction)
 
+            # Return variables
             yield {
                 'name': series.css('a::attr(title)').extract_first(),
                 'fanfiction': fanfiction,

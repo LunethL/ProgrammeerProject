@@ -21,6 +21,7 @@ database = []
 for title in key:
     name = key[title]
 
+    # Add ff.net data to database
     if name["ffnet"] != "FAIL":
         for series in ffnet:
             if series["name"] == name["ffnet"]:
@@ -30,6 +31,7 @@ for title in key:
         ffnet_fanfic = 0
         ffnet_href = "FAIL"
 
+    # Add ao3 data to database
     if name["ao3"] != "FAIL":
         for series in ao3:
             if series["name"] == name["ao3"]:

@@ -1,6 +1,9 @@
-/* Functions used in multiple files */
+/* general.js
+  Name: Sanne Meijering
+  Student ID: 10783709
+  Functions not directly related to any chart
+*/
 
-// General functions
 // Update all graphs (for button clicks)
 function updateAll() {
   renewText("None");
@@ -11,7 +14,7 @@ function updateAll() {
   updatePie();
 }
 
-// Renews the text when a series is selected
+// Renews the series selection text when a series is selected
 function renewText(word) {
   d3.select("#series_text").remove();
   body = d3.select('body');
@@ -20,6 +23,7 @@ function renewText(word) {
     .text("Series selected: " + word);
 }
 
+// Get the set of values that fit the group when the group variable is changed
 function pickSet() {
   if (group == "rating") {
     set = ["K", "T", "M", "E", "Not Rated"];

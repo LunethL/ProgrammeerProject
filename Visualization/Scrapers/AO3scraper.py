@@ -9,17 +9,21 @@ import scrapy, logging
 logging.disable(logging.DEBUG)
 TARGET_URL = "http://archiveofourown.org/media/TV%20Shows/fandoms"
 
-# Scraper that moves to the next page
+# Webscraper
 class AO3Spider(scrapy.Spider):
     name = "ao3"
     start_urls = [TARGET_URL]
 
-    # Parse page and continue to next page
+    # Parse page
     def parse(self, response):
+        # Select table
         table = response.css('ol.alphabet')
+
+        # Select series
         for series in table.xpath('li//li'):
             fanfiction = int(series.css('::text')[2].extract()[18:-14])
 
+            # Return variables
             yield {
                 'name': series.css('a::text').extract_first(),
                 'fanfiction': fanfiction,
