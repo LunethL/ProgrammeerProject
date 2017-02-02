@@ -1,4 +1,4 @@
-# Fanfition visualization
+# Fanfiction visualization
  This local site shows information from the fanfiction sites fanfiction.net and archiveofourown.org. 
  
 ## Installation
