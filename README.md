@@ -1,50 +1,98 @@
-# ProgrammeerProject
-ProgrammeerProject voor mprog
-
-## Project Proposal: The World of TV Series
-### By Sanne Meijering
-
-
-## Goal
-The goal of this visualization is to create an overview of the the fanfiction for TV series. This visualization will allow the user to find out which TV series have a lot of fanfiction, when most fanfiction was written and more. This is done using a horizontal bar chart. A caledar chart shows for each series when the fanfiction was written, while a pie chart shows the distibution of rating (all audiences/teen/mature), host site, word range, chapter range and complete/incomplete fanfiction. Only fanfiction with more than 50 stories on one fanfiction site will be included
+# Fanfition visualization
+ This local site shows information from the fanfiction sites fanfiction.net and archiveofourown.org. 
+ 
+## Installation
+To open the file, 
+If you wish to update the database, downloading the repository is necessary.
+This visualization will not work offline, as it downloads jQuery and d3.tip from the web.
 
 ## Features
-### Minimum viable product:
-•	Main chart (horizontal stacked bar chart) which show the amount of fanfiction of each TV series
-•	Secondary chart (calendar chart) which shows the amount of fanfiction written per year.
-•	Secondary chart (pie chart) which shows the distribution of rating and host website.
-•	Extra interactivity 1: Switch between total fanfiction, fanfiction on fanfiction.net and fanfiction on archiveofourown with buttons.
-•	Extra interactivity 2: Switch between fanfiction rating distribution and host distribution.
-•	Linking: Clicking on main chart will update other charts
+* A bar chart shows the total number of fanfiction written per series. By default is shows the sum of the fanfiction written for each site.
+* The slider next to the bar chart can be used to scroll down to the series for which less fanfiction is written.
+* Hover over a bar to see the exact number of fanfiction written.
+* Click on a bar to select a series, this updates the other charts to show only the information for the selected series.
+* Click on the buttons above the bar chart to update all charts to show information from only one site or return to total. The slider and selected series will be reset.
+* The calendar chart shows the number of fanfiction published per day for one year. The year shown can be changed with the drop down menu in the title. Note that the scale changes according to the maximum amount of fanfiction published in one day that year, and will change depending on the selected series and year.
+* Hovering over a day in the calendar chart will show you the date and the exact number of fanfiction written that day.
+* The pie chart shows age rating of fanfiction by default, but this can be changed to word range or number of chapters by changing the selection with the drop down menu. 
+* The second drop down menu can be used to switch between all fanfiction and the fanfiction written in the year selected in the calendar chart's drop down menu.
+* Hovering over a piece of the pie chart will show the category and the exact amount of fanfiction that belongs to that category.
 
-### Optional features (by approximate implementation order):
-•	Tooltips
-•	CSS style update
-•	Added views to pie chart: word range, chapter range, complete/incomplete
-•	Added view to main chart: Number of fanfiction added and/or updated in the last month
-•	Slider: Main chart shows data for all series and has a slider
-•	Added view to main graph: Alphabetical order
-•	Top 10 most popular
-•	Search function
-•	Real-time scraper: Scrapes the data on update
+## Updating the data
+Scrapers are included and can be used to update the data. Note that dataset 1 can be updated in mere minutes, while updating dataset 2 and 3 will take several hours for each site.
 
-## Sketch of the web page
-![](doc/Sketch2.jpg)
+### Updating dataset 1
+1. Delete ffnet.json and ao3.json from the Data map if they exist.
+2. Open the command window and go to the 'Visualization' directory (run commands from any other directory will cause misplacement of files or an error).
+3. Run the commands 'scrapy runspider Scrapers\FFscraper.py -o ffnet.json' and 'scrapy runspider Scrapers\AO3scraper.py -o ao3.json' to scrape the data for dataset 1.
+4. Fuse the datasets with 'python Data\Dataset1Creator.py'
 
-## Data sources
-Fanfiction.net (FF.net) and Archiveofourown (AO3) are the largest Western fanfiction communities and unlike other websites they are sorted and easy to scrape. Both are used as there may be huge differences in the amount of fanfiction written for one series between the two.
+### Updating dataset 2 and 3
+Both datasets are updated with the same scraper, one site at a time. Note that the second scraper uses the information from the first, but does not overwrite it. If you stop either scraper halfway, the old information will still be overwritten, thus: 
+#### WARNING: stopping the second scraper halfway will update the second dataset and will leave you with incomplete data in the visualizations.
 
-Data will be obtained using scrapers, which will be fused into a JSON file. This file contains not only the titles and data of each series, but also the exact name under which it is found in each data source. These may be altered by hand if they cannot be found by the scraper. Updates of the data will only replace the data values and rankings and will use the names found in the initial scrape to find them.
+1. Open the command window and go to the 'Visualization' directory (run commands from any other directory will cause misplacement of files or an error).
+2. Run the command 'python Scrapers\FFscraper2.py' to scrape fanfiction.net
+3. Run the command 'python Scrapers\AO3scraper2.py' to scrape archiveofourown.org
 
-## Decomposing the visualization
-This visualization needs a HTML file, a javascript file in which the visualization is made, a css file for the style and a three-or-more-in-one scraper which scrapes all necessary data and fuses it into a JSON file. The scraper then has to be altered to update rather than renew the dataset.
+## Copyright
+I do not own d3.min.js or d3.slider.js.
 
-The visualization itself consists of three parts: a chart (most likely a horizontal grouped bar chart) that shows rating and amount of fanfiction, a bar chart that shows the amount of fanfiction written per time unit and a pie chart which shows rating and host website.
+### Copyright d3.min.js:
+Copyright 2010-2016 Mike Bostock
+All rights reserved.
 
-## Possible technical problems
-I expect the visualization to go relatively smoothly, but I foresee trouble with the tv series names for the scraper. Because of this I want it to save the name of each series for each site, as that way I can change all wrong names manually once and then update it using those names. Of the visualization itself, the slider is likely to cause the most trouble but luckily that feature isn't that important. I also had a lot of trouble with tooltips in previous assignments, so I expect to spend quite a bit of time on them.
+Redistribution and use in source and binary forms, with or without modification,
+are permitted provided that the following conditions are met:
 
-## Similar visualizations
-I've found that most visualizations on the subject seem to visualize the rating per episode in a scatter plot. One site was dedicated to this and added two scaling options (0-10 and automatic) and trend lines for each season separately and for the series overall. These cannot be used however, unless I wish to scrape even more.
+* Redistributions of source code must retain the above copyright notice, this
+  list of conditions and the following disclaimer.
 
-Another graph showed popularity in a bar chart with horizontal bars. This may work well for my visualization as a higher position in the graph shows a higher popularity better than a position more to the right. In this subject most visualizations are actually tables, and a rotated bar chart mimics this. Other than that graph, I could only find tables and a few charts that were like the first: well-designed but not useable for me.
+* Redistributions in binary form must reproduce the above copyright notice,
+  this list of conditions and the following disclaimer in the documentation
+  and/or other materials provided with the distribution.
+
+* Neither the name of the author nor the names of contributors may be used to
+  endorse or promote products derived from this software without specific prior
+  written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+### Copyright d3.slider.js:
+Copyright (c) 2013, Bjorn Sandvik
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification,
+are permitted provided that the following conditions are met:
+
+  Redistributions of source code must retain the above copyright notice, this
+  list of conditions and the following disclaimer.
+
+  Redistributions in binary form must reproduce the above copyright notice, this
+  list of conditions and the following disclaimer in the documentation and/or
+  other materials provided with the distribution.
+
+  Neither the name of the {organization} nor the names of its
+  contributors may be used to endorse or promote products derived from
+  this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR
+ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
