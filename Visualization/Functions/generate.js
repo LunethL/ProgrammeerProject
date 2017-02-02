@@ -60,6 +60,13 @@ function generateMain() {
       .attr("class", "axis yaxis")
       .attr('transform', 'translate(' + padding["left"] + ',' + padding["top"] + ')');
   createAxis(svg_main, xScale, yScale);
+
+  // Add name x-axis
+  svg_main.append("text")
+      .attr("class", "text")
+      .attr("x", w - 300)
+      .attr("y", 20)
+      .text("Number of fanfictions written")
 }
 
 // Generate the calendar chart

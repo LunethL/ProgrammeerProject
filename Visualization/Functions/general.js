@@ -8,7 +8,6 @@
 function updateAll() {
   renewText("None");
   series = "total";
-  shown_data = [0, 19];
   updateMain();
   updateCalendar();
   updatePie();
