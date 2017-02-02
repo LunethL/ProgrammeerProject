@@ -76,5 +76,8 @@ It was hard, but I managed to sort the pie chart and its legend and relabelled b
 I spent most of the day cleaning up my code. I made a seperate file with global variables. Especially generate-file and update-file had a lot of duplicate code, so I put all of it in functions in the general-file. At this, bettercodehub said that there are too many functions in general.js, so I split it up into four files: one with the general functions and one for each chart for chart-specific functions. Now my longest code piece is unders 60 lines and better code hub gives my code a 6. I believe the mark should be a 7 though, as it says I have too many files in the 'Visualization' map. This map contains all files other than the license, .md files and pictures for my .md files, so of course it has a lot of files. The map itself is split up in different maps though, which have around 7 code files at most.
 
 ## Day 4
-Today is the last day, so I added or updated all .md files with the exception of design and added the license. I also fine-tuned the last application, catching a few small bugs and mistakes in the process. I also redid the CSS to look nicer, made scrolling have next to no effect on the page layout and added an info-screen. I had hoped to add more of them, but I ran out of time.
+Today is the last day, so I added or updated all .md files with the exception of design and added the license. I also fine-tuned the last application, catching a few small bugs and mistakes in the process. I also redid the CSS to look nicer, made scrolling have next to no effect on the page layout and added an info-screen. I had hoped to add more of them, but I ran out of time. I did manage to put the site online, but it was a bit of a struggle as I kept using the wrong urls.
+
+Final product:
+![](Screenshot_overview.JPG)
 
