@@ -122,7 +122,7 @@ function addLegendCal() {
       .attr('x', legendRectSize + legendSpacing)
       .attr('y', legendRectSize)
       .text(function(d) {
-        if (max <= color_cal.length) {
+        if (max >= color_cal.length) {
           return Math.round(color_cal.indexOf(d) * step + 1) + "-" + Math.round((color_cal.indexOf(d) + 1) * step);
         }
         else {
