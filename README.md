@@ -6,17 +6,27 @@ To open the file,
 If you wish to update the database, downloading the repository is necessary.
 This visualization will not work offline, as it downloads jQuery and d3.tip from the web.
 
+## Screenshot
+![](doc/Screenshot_overview.JPG)
+
 ## Features
 * A bar chart shows the total number of fanfiction written per series. By default is shows the sum of the fanfiction written for each site.
+![](doc/Barchart1.JPG)
 * The slider next to the bar chart can be used to scroll down to the series for which less fanfiction is written.
+![](doc/Barchart2.JPG)
 * Hover over a bar to see the exact number of fanfiction written.
 * Click on a bar to select a series, this updates the other charts to show only the information for the selected series.
-* Click on the buttons above the bar chart to update all charts to show information from only one site or return to total. The slider and selected series will be reset.
+![](doc/Selection1.JPG)
+* Click on the buttons above the bar chart to update all charts to show information from only one site or return to total. The selected series will be reset.
 * The calendar chart shows the number of fanfiction published per day for one year. The year shown can be changed with the drop down menu in the title. Note that the scale changes according to the maximum amount of fanfiction published in one day that year, and will change depending on the selected series and year.
+![](doc/Calendar1.JPG)
 * Hovering over a day in the calendar chart will show you the date and the exact number of fanfiction written that day.
 * The pie chart shows age rating of fanfiction by default, but this can be changed to word range or number of chapters by changing the selection with the drop down menu. 
+![](doc/Piechart1.JPG) ![](doc/Piechart2.JPG)
 * The second drop down menu can be used to switch between all fanfiction and the fanfiction written in the year selected in the calendar chart's drop down menu.
 * Hovering over a piece of the pie chart will show the category and the exact amount of fanfiction that belongs to that category.
+* An info screen appears on opening the page. After closing it, it can reopened by clicking on the info button.
+![](doc/Info.JPG)
 
 ## Updating the data
 Scrapers are included and can be used to update the data. Note that dataset 1 can be updated in mere minutes, while updating dataset 2 and 3 will take several hours for each site.
@@ -36,7 +46,9 @@ Both datasets are updated with the same scraper, one site at a time. Note that t
 3. Run the command 'python Scrapers\AO3scraper2.py' to scrape archiveofourown.org
 
 ## Copyright
-I do not own d3.min.js or d3.slider.js.
+I do not own d3.min.js or d3.slider.js, or the info icon.
+
+Source info icon: http://www.flaticon.com/packs/pins-of-maps
 
 ### Copyright d3.min.js:
 Copyright 2010-2016 Mike Bostock
